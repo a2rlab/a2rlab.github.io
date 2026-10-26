@@ -1,0 +1,27 @@
+## 5. Update lab content
+
+1. Open **https://a2rlab.github.io/edit/**.
+2. Edit the required sections. **Save local draft** only saves in this browser; **Preview draft** shows that draft locally.
+3. Click **Export update** to download `a2r-content-update.json`.
+4. In your cloned repository, replace `lib/lab-content.json` with the exported file, renaming it exactly to `lab-content.json`.
+5. Add any new image/video files under `public/media/`. Use simple names such as `new-robot.webp`, with paths like `/media/new-robot.webp` in the content file.
+6. Commit and push with GitHub Desktop. GitHub Actions publishes the update.
+
+Anyone can open the editor, but it cannot write to GitHub or alter the public website. Only authorized repository contributors can publish. Browser drafts do not transfer automatically from the old website's domain or between computers. To transfer a draft, export it on the old editor and import it on the new one. Keep exported drafts until published successfully.
+
+The downloadable guide at `/editor-guide.txt` contains the same update workflow. Use GitHub history to recover older content; reverting a commit and pushing publishes that previous version.
+
+## Videos and optional YouTube hosting
+
+All current videos remain included. The existing public media totals about 124 MB, so separate video hosting is not needed to launch.
+
+To move a video to YouTube later:
+
+1. Upload it to the lab's YouTube channel and choose **Unlisted** visibility. Ensure embedding is allowed. Unlisted means people with the link can watch and share it; it is not private access control.
+2. In the editor, choose **Films**, select the film, and replace **Video file path** (`src`) with its YouTube watch URL or `https://youtu.be/VIDEO_ID` link.
+3. Keep the film's stable ID, poster image, title, summary, and duration. Project and student-activity links use that stable ID and continue working.
+4. Export the update, replace `lib/lab-content.json`, commit, and push.
+5. Test playback on the live site. After confirming no other records use it, you may remove the old MP4 from `public/media/` and publish again to reduce the deployed size. Removing it does not erase the old file from Git history.
+
+The player supports both local MP4s and YouTube links. YouTube is loaded only when the film dialog is opened. No films have been uploaded to YouTube as part of this export; external playback still depends on YouTube's availability and the video's permissions.
+
