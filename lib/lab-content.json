@@ -1,0 +1,3204 @@
+{
+  "lab": {
+    "name": "Autonomous and Assistive Robotics",
+    "shortName": "A²R Research Lab",
+    "institution": "University of Debrecen",
+    "department": "Faculty of Engineering · Electrical Engineering and Mechatronics",
+    "location": "Virág Street building wing · Room V.2.08 · Debrecen, Hungary",
+    "email": "husam@eng.unideb.hu",
+    "linkedin": "https://www.linkedin.com/company/autonomous-assistive-robotics-a%C2%B2r/posts/",
+    "facebook": "https://www.facebook.com/profile.php?id=61573079700902",
+    "description": "We develop intelligent robotic systems that navigate a changing world and extend human capabilities.",
+    "about": "At the University of Debrecen, A²R brings together robotics, artificial intelligence, and biomechatronics. Our researchers connect computational methods with physical platforms to investigate autonomous movement, robot cooperation, and intuitive assistive devices.",
+    "scholar": "https://scholar.google.com/citations?hl=en&user=0P-ixAEAAAAJ&view_op=list_works&sortby=pubdate",
+    "mtmt": "https://m2.mtmt.hu/gui2/?mode=browse&sel=authors10061313&type=authors",
+    "official": "https://mechatronics.unideb.hu/autonom-es-asszisztiv-robotika-a2r-kutatolabor",
+    "founded": "2017",
+    "updated": "10 September 2026"
+  },
+  "research": [
+    {
+      "id": "autonomy",
+      "number": "01",
+      "title": "Autonomous systems",
+      "short": "Autonomous systems",
+      "description": "Helping robots perceive their surroundings, plan their motion, and operate in dynamic environments.",
+      "focus": [
+        "Autonomous navigation and path planning",
+        "Sensor fusion and RGB-D perception",
+        "Dynamic obstacle avoidance",
+        "Reinforcement learning for robotic control"
+      ],
+      "image": "/media/ackermann.webp",
+      "imageAlt": "A²R Ackermann steering research vehicle",
+      "related": [
+        "ackermann",
+        "robotino",
+        "delivery",
+        "amr1"
+      ]
+    },
+    {
+      "id": "swarm",
+      "number": "02",
+      "title": "Swarm & multi-robot systems",
+      "short": "Multi-robot systems",
+      "description": "Investigating how teams of robots coordinate through local information, distributed decisions, and shared objectives.",
+      "focus": [
+        "Decentralized coordination",
+        "Multi-agent reinforcement learning",
+        "Formation control and collective behavior",
+        "Cooperative ground and aerial robotics"
+      ],
+      "image": "/media/swarm.webp",
+      "imageAlt": "Small mobile robot platforms shown in the lab presentation",
+      "related": [
+        "amr1",
+        "drone"
+      ]
+    },
+    {
+      "id": "assistive",
+      "number": "03",
+      "title": "Assistive robotics",
+      "short": "Assistive robotics",
+      "description": "Developing prosthetic and rehabilitation systems around human movement, sensing, and control.",
+      "focus": [
+        "Modular prosthetic and bionic hands",
+        "Mechanical finger design and tactile sensing",
+        "EMG-based control and signal processing",
+        "Adaptive control for assistive devices"
+      ],
+      "image": "/media/bionic-hand.webp",
+      "imageAlt": "Red and black bionic hand prototype developed in the lab",
+      "related": [
+        "bionic-hand",
+        "bci"
+      ]
+    },
+    {
+      "id": "interaction",
+      "number": "04",
+      "title": "Human–robot interaction",
+      "short": "Human–robot interaction",
+      "description": "Exploring how people and robots exchange information through perception, biosignals, and intuitive interfaces.",
+      "focus": [
+        "Multimodal perception and biosensing",
+        "Brain–computer interfaces",
+        "EEG and motor imagery",
+        "Human-centered robotic interaction"
+      ],
+      "image": "/media/bci.webp",
+      "imageAlt": "Biosignal research setup in the laboratory",
+      "related": [
+        "bci",
+        "robotino"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "ackermann",
+      "title": "Autonomous research vehicle",
+      "category": "autonomy",
+      "type": "Research platform",
+      "image": "/media/ackermann.webp",
+      "imageAlt": "Four-wheel Ackermann steering vehicle with onboard sensors",
+      "summary": "A physical testbed for indoor–outdoor navigation, perception, and real-time decision-making.",
+      "description": "The Ackermann steering vehicle brings sensing, embedded computing, and vehicle control together on an RC-scale platform. Research explores mapping, localization, obstacle avoidance, and human-following behavior. Team work includes an RGB-D perception pipeline using Kinect v2, NVIDIA Jetson Nano, ROS 2, and TensorRT, alongside path planning and sensor fusion.",
+      "topics": [
+        "Perception",
+        "Path planning",
+        "Sensor fusion"
+      ],
+      "people": [
+        "manuel",
+        "david"
+      ],
+      "gallery": [
+        "/media/ackermann.webp"
+      ],
+      "video": "lab-demo",
+      "movies": [
+        "lab-demo",
+        "hallway-navigation",
+        "navigation-map"
+      ],
+      "publication": ""
+    },
+    {
+      "id": "bionic-hand",
+      "title": "Modular bionic hand",
+      "category": "assistive",
+      "type": "Research prototype",
+      "image": "/media/bionic-hand.webp",
+      "imageAlt": "Anthropomorphic bionic hand prototype with mechanical fingers",
+      "summary": "Reconfigurable prosthetic devices with mechanical finger designs and integrated force sensing.",
+      "description": "This project investigates a modular prosthetic hand with interchangeable end-effectors for different activities and user needs. Work includes anthropomorphic mechanisms, mechanical linkages for finger movement, and tactile force-sensing modules. EMG and EEG research supports the wider aim of intuitive control. The systems shown are research prototypes.",
+      "topics": [
+        "Prosthetics",
+        "Tactile sensing",
+        "EMG control"
+      ],
+      "people": [
+        "nicolas",
+        "suliman"
+      ],
+      "gallery": [
+        "/media/bionic-hand.webp",
+        "/media/finger-design.webp",
+        "/media/bionic-design.webp",
+        "/media/tactile-sensing.webp"
+      ],
+      "video": "reseala",
+      "movies": [
+        "prosthesis-assembly",
+        "prosthesis-linkage-cad",
+        "prosthesis-finger",
+        "prosthesis-demo",
+        "reseala"
+      ],
+      "publication": ""
+    },
+    {
+      "id": "robotino",
+      "title": "Robotino mobile robot",
+      "category": "autonomy",
+      "type": "Research platform",
+      "image": "/media/robotino.webp",
+      "imageAlt": "Festo Robotino mobile research robot",
+      "summary": "Mobile robotics research connecting autonomous navigation, collision avoidance, and human interaction.",
+      "description": "Robotino supports research in mobile robot navigation and collision avoidance. The platform is used by the lab to investigate autonomous behavior in indoor environments. Elek Donát is responsible for the Robotino platform, with research interests spanning mobile robotics, navigation, and unmanned aerial vehicles.",
+      "topics": [
+        "Mobile robotics",
+        "Navigation",
+        "HRI"
+      ],
+      "people": [
+        "donat"
+      ],
+      "gallery": [
+        "/media/robotino.webp"
+      ],
+      "movies": [],
+      "publication": ""
+    },
+    {
+      "id": "drone",
+      "title": "Aerial manipulation",
+      "category": "swarm",
+      "type": "Research prototype",
+      "image": "/media/drone.webp",
+      "imageAlt": "Multirotor aerial manipulation research platform",
+      "summary": "Bringing aerial mobility and manipulation together on an experimental multirotor platform.",
+      "description": "The lab’s NURAI presentation documents aerial manipulation with a drone, including the physical platform and associated design work. This work connects with A²R interests in unmanned aerial vehicles, cooperative robotic systems, and control.",
+      "topics": [
+        "Aerial robotics",
+        "Manipulation",
+        "Control"
+      ],
+      "people": [
+        "husam"
+      ],
+      "gallery": [
+        "/media/drone.webp",
+        "/media/aerial-team.webp"
+      ],
+      "movies": [
+        "aerial-hardware",
+        "aerial-simulation"
+      ],
+      "publication": ""
+    },
+    {
+      "id": "bci",
+      "title": "Biosignals & robotic control",
+      "category": "interaction",
+      "type": "Research direction",
+      "image": "/media/bci.webp",
+      "imageAlt": "Researcher wearing a biosignal headset at a computer",
+      "summary": "Investigating EMG, EEG, and motor imagery as interfaces between people and robotic devices.",
+      "description": "A²R explores biosignal processing and pattern recognition for human–robot interaction and assistive control. The supplied research presentation illustrates EEG experiments and motor imagery workflows, while the team’s research covers EMG-based control, robotic vision, and multimodal perception.",
+      "topics": [
+        "EEG / EMG",
+        "Motor imagery",
+        "Pattern recognition"
+      ],
+      "people": [
+        "mozes",
+        "nicolas",
+        "hamna-noor",
+        "marsail"
+      ],
+      "gallery": [
+        "/media/bci.webp"
+      ],
+      "movies": [
+        "bci-arm",
+        "bci-expression",
+        "motor-imagery"
+      ],
+      "publication": ""
+    },
+    {
+      "id": "amr1",
+      "title": "AMR1 mobile platform",
+      "category": "swarm",
+      "type": "Research platform",
+      "image": "/media/amr1.webp",
+      "imageAlt": "AMR1 compact mobile robot with exposed electronics",
+      "summary": "A compact mobile platform within the lab’s autonomous and multi-robot research portfolio.",
+      "description": "AMR1 is documented in the lab’s platform portfolio. It forms part of a collection of mobile robots supporting experimental robotics and control. Contact the lab to discuss a project’s integration requirements and suitable test platforms.",
+      "topics": [
+        "Mobile platforms",
+        "Multi-robot research",
+        "Embedded control"
+      ],
+      "people": [
+        "dahnial"
+      ],
+      "gallery": [
+        "/media/amr1.webp"
+      ],
+      "movies": [],
+      "publication": ""
+    },
+    {
+      "id": "delivery",
+      "title": "Differential delivery robot",
+      "category": "autonomy",
+      "type": "Research platform",
+      "image": "/media/delivery.webp",
+      "imageAlt": "Small differential-drive mobile robot with sensors",
+      "summary": "A differential-drive research platform for mobile robotics and delivery applications.",
+      "description": "This mobile robot appears in the lab’s platform portfolio under autonomous differential delivery robotics. It supports the lab’s broader interest in autonomous movement, sensing, and embedded robotic systems. Platform-specific experiments and integration opportunities can be discussed with the lab.",
+      "topics": [
+        "Differential drive",
+        "Mobile robotics",
+        "Delivery"
+      ],
+      "people": [
+        "husam"
+      ],
+      "gallery": [
+        "/media/delivery.webp"
+      ],
+      "movies": [
+        "pet-robot"
+      ],
+      "publication": ""
+    },
+    {
+      "id": "service-robot",
+      "title": "Service robotics & obstacle avoidance",
+      "category": "autonomy",
+      "type": "Experimental platform",
+      "image": "/media/service-robot.webp",
+      "imageAlt": "Service robotics & obstacle avoidance at A²R",
+      "summary": "Indoor service robotics connects autonomous motion with spaces shared by people.",
+      "description": "The Enjoy Robotics service robot supports A²R experiments in indoor movement, delivery, and interaction. The NURAI presentation documents navigation around static and moving obstacles in the lab. These demonstrations connect perception and planning with practical movement among workstations and people.",
+      "topics": [
+        "Service robotics",
+        "Obstacle avoidance",
+        "HRI"
+      ],
+      "people": [
+        "dahnial",
+        "husam"
+      ],
+      "gallery": [
+        "/media/service-robot.webp"
+      ],
+      "movies": [
+        "service-demonstration",
+        "service-navigation"
+      ],
+      "publication": ""
+    },
+    {
+      "id": "swarm-localization",
+      "title": "Leader-assisted swarm localization",
+      "category": "swarm",
+      "type": "Proof of concept",
+      "image": "/media/swarm-localization-poster.webp",
+      "imageAlt": "Leader-assisted swarm localization at A²R",
+      "summary": "One LiDAR-equipped leader supports the localization of lower-cost follower robots.",
+      "description": "This proof of concept combines a leader with LiDAR and SLAM with followers using simpler onboard sensing. Markers help the leader observe followers, while estimation combines relative observations with odometry. The lab’s demonstration includes hardware and a ROS 2 / Gazebo simulation. Related research also explores decentralized localization using infrared, IMU, and Wi-Fi fusion.",
+      "topics": [
+        "Multi-robot localization",
+        "Sensor fusion",
+        "ROS 2"
+      ],
+      "people": [
+        "dahnial",
+        "ramaroson",
+        "zaid"
+      ],
+      "gallery": [
+        "/media/swarm-localization-poster.webp"
+      ],
+      "movies": [
+        "swarm-localization"
+      ],
+      "publication": "10.1109/CogInfoCom66819.2025.11200701"
+    },
+    {
+      "id": "pet-following",
+      "title": "Human-following & voice-assisted robots",
+      "category": "interaction",
+      "type": "Student research",
+      "image": "/media/pet-robot-poster.webp",
+      "imageAlt": "Human-following & voice-assisted robots at A²R",
+      "summary": "A responsive mobile robot brings together human tracking, navigation, and voice commands.",
+      "description": "The pet-robot project studies friendly robotic behaviour through active person following and SLAM. Team contributions span computer vision, embedded control, and offline voice interfaces with structured command execution. The video shows an early human-following demonstration in the lab.",
+      "topics": [
+        "Person tracking",
+        "Voice interfaces",
+        "SLAM"
+      ],
+      "people": [
+        "david",
+        "manuel",
+        "nader-noomen",
+        "hassan-almakhoul"
+      ],
+      "gallery": [
+        "/media/pet-robot-poster.webp"
+      ],
+      "movies": [
+        "pet-robot"
+      ],
+      "publication": ""
+    },
+    {
+      "id": "rehabilitation",
+      "title": "Robotic hand & wrist rehabilitation",
+      "category": "assistive",
+      "type": "Research programme",
+      "image": "/media/prosthesis-linkage-cad-poster.webp",
+      "imageAlt": "CAD animation of a related prosthetic hand mechanism",
+      "summary": "Mechanical devices and biosignal interfaces support research into assisted hand movement.",
+      "description": "The PI’s publication record documents finger rehabilitation devices, continuous passive motion for the fingers and wrist, and grounded exoskeleton mechanisms. More recent work investigates EEG and ERP interfaces for personalized stroke rehabilitation. This programme brings together mechanical design, motion control, and human intent. The displayed CAD animation illustrates related prosthetic mechanism development; it is not a clinical rehabilitation trial.",
+      "topics": [
+        "Rehabilitation robotics",
+        "Finger & wrist motion",
+        "Biosignal interfaces"
+      ],
+      "people": [
+        "husam",
+        "nicolas",
+        "suliman"
+      ],
+      "gallery": [
+        "/media/prosthesis-linkage-cad-poster.webp"
+      ],
+      "movies": [
+        "motor-imagery"
+      ],
+      "publication": "10.3390/app11020815"
+    },
+    {
+      "id": "intelligent-space",
+      "title": "Intelligent space & motion capture",
+      "category": "autonomy",
+      "type": "Experimental environment",
+      "image": "/media/motion-capture-poster.webp",
+      "imageAlt": "OptiTrack tracking visualization and the actual A²R laboratory, from the motion-capture film",
+      "summary": "An instrumented lab connects robot sensing, motion measurement, and spatial understanding.",
+      "description": "The intelligent-space research environment combines camera-based motion capture, mobile robots, and depth sensing. OptiTrack provides reference motion measurements for tracking and validation, while RGB-D and point-cloud experiments investigate how robots represent their surroundings. Calibration, synchronized measurements, and repeatable scenarios help compare navigation and control methods.",
+      "topics": [
+        "OptiTrack",
+        "RGB-D mapping",
+        "Trajectory validation"
+      ],
+      "people": [
+        "husam",
+        "manuel",
+        "dahnial"
+      ],
+      "gallery": [
+        "/media/motion-capture-poster.webp",
+        "/media/lab-workspace.webp",
+        "/media/lab-prototyping.webp",
+        "/media/rgbd-mapping-poster.webp"
+      ],
+      "movies": [
+        "motion-capture",
+        "depth-mapping",
+        "rgbd-mapping"
+      ],
+      "publication": "10.1109/SII58957.2024.10417351"
+    },
+    {
+      "id": "smart-helmet",
+      "title": "Smart helmet: sensing & integration",
+      "category": "interaction",
+      "type": "Design prototype",
+      "image": "/media/smart-helmet.webp",
+      "imageAlt": "Smart helmet: sensing & integration at A²R",
+      "summary": "A wearable-system concept developed through architecture, mechanical design, and electronics.",
+      "description": "The NURAI presentation documents a smart-helmet system overview, design views, and a dedicated PCB. The project illustrates the integration of sensing and embedded electronics within a wearable form. The figures show the documented prototype-development stages.",
+      "topics": [
+        "Wearable systems",
+        "PCB design",
+        "Embedded sensing"
+      ],
+      "people": [
+        "husam"
+      ],
+      "gallery": [
+        "/media/smart-helmet.webp",
+        "/media/helmet-design.webp",
+        "/media/helmet-pcb.webp"
+      ],
+      "movies": [],
+      "publication": ""
+    },
+    {
+      "id": "sport-sensing",
+      "title": "Muscle fatigue & movement in sport",
+      "category": "interaction",
+      "type": "Research study",
+      "image": "/media/research-seminar.webp",
+      "imageAlt": "Muscle fatigue & movement in sport at A²R",
+      "summary": "EMG and inertial sensing bring laboratory measurement into dynamic sporting activity.",
+      "description": "A²R is developing a method to investigate muscle fatigue during tennis using EMG and IMU data. The work connects muscle activation, movement measurement, and signal analysis with biomechanics and wearable technology. The lab announced the study in May 2026. Contact the team for the current study status.",
+      "topics": [
+        "EMG",
+        "IMU",
+        "Sports biomechanics"
+      ],
+      "people": [
+        "husam",
+        "hazem"
+      ],
+      "gallery": [
+        "/media/research-seminar.webp"
+      ],
+      "movies": [],
+      "publication": ""
+    },
+    {
+      "id": "student-robotics",
+      "title": "Competition robots & autonomous challenges",
+      "category": "autonomy",
+      "type": "Student programme",
+      "image": "/media/student-sumo.webp",
+      "imageAlt": "Competition robots & autonomous challenges at A²R",
+      "summary": "Line following, junctions, maze solving, and robot-sumo turn engineering principles into practical challenges.",
+      "description": "Students design, assemble, program, and refine small autonomous robots through repeated testing. The presentation includes line-following trials, competition-course footage, and maze-solving exercises. These activities develop sensing, embedded programming, control, mechanical integration, and teamwork.",
+      "topics": [
+        "Line following",
+        "Maze solving",
+        "Robot sumo"
+      ],
+      "people": [
+        "ali-elbishbishy",
+        "hassaan",
+        "dahnial"
+      ],
+      "gallery": [
+        "/media/student-sumo.webp"
+      ],
+      "movies": [
+        "line-test",
+        "line-circuit",
+        "line-junctions",
+        "competition-run",
+        "competition-trial-a",
+        "competition-trial-b",
+        "maze-simulation"
+      ],
+      "publication": "10.1109/ICELIE64733.2025.11244757"
+    }
+  ],
+  "facilities": [
+    {
+      "id": "motion",
+      "title": "Motion capture & validation",
+      "description": "An OptiTrack camera system supports tracking of mobile robots and aerial platforms, providing a reference for navigation and control experiments.",
+      "items": [
+        "Robot trajectory tracking",
+        "Navigation and control validation",
+        "Ground and aerial platform experiments"
+      ]
+    },
+    {
+      "id": "workshop",
+      "title": "Mechatronic prototyping",
+      "description": "Workshop facilities connect mechanical development with electronics, enabling the team to build, adapt, and investigate physical robotic systems.",
+      "items": [
+        "3D printing for prototype structures",
+        "Electronics and PCB development",
+        "Soldering and diagnostic equipment"
+      ]
+    },
+    {
+      "id": "biosignals",
+      "title": "Assistive robotics testbed",
+      "description": "Biosignal sensing and human movement experiments support the development of prosthetic and assistive robotic systems.",
+      "items": [
+        "Surface EMG and EEG research",
+        "Body tracking and human movement",
+        "Assistive prototype evaluation"
+      ]
+    },
+    {
+      "id": "compute",
+      "title": "Research computing",
+      "description": "Research computers support computational modeling, AI development, and the processing of robotic sensor data.",
+      "items": [
+        "Modeling and simulation",
+        "AI and perception workflows",
+        "Sensor-stream processing"
+      ]
+    }
+  ],
+  "team": [
+    {
+      "id": "husam",
+      "name": "Dr. Husam A. Neamah Almusawi",
+      "role": "Principal Investigator · Founder & Director",
+      "group": "Management",
+      "image": "/media/husam-pi.webp",
+      "email": "husam@eng.unideb.hu",
+      "specialty": "Autonomous robotics · Biomechatronics",
+      "bio": "Associate Professor at the University of Debrecen and founder of A²R in 2017. He researches autonomous navigation, socially interactive robotics, biomechatronic systems, and computational modelling. He earned his MSc in Mechatronics Engineering in 2017 and PhD in Engineering Technology and Informatics in 2021, both at Debrecen, with the PhD awarded summa cum laude. Since 2025, he has also served as a Visiting Professor at Bonn-Rhein-Sieg University of Applied Sciences, teaching artificial intelligence for robotics."
+    },
+    {
+      "id": "dahnial",
+      "name": "Dahnial Syauqy",
+      "role": "PhD Researcher · Autonomous Systems Lead",
+      "group": "Management",
+      "image": "/media/team-dahnial.webp",
+      "email": "syauqy.dahnial@unideb.hu",
+      "specialty": "Swarm robotics · Reinforcement learning",
+      "bio": "A PhD researcher at the Doctoral School of Informatics and lead for the pet robot, delivery robot, and swarm projects. He holds an MSc through the joint programme of National Central University, Taiwan, and Universitas Brawijaya, Indonesia. His research covers navigation, multi-robot coordination, reinforcement learning, and machine learning on constrained devices."
+    },
+    {
+      "id": "nicolas",
+      "name": "Jhon Nicolas Peña Martinez",
+      "role": "Assistive Robotics Lead · Lab Secretary",
+      "group": "Management",
+      "image": "/media/team-nicolas.webp",
+      "email": "",
+      "specialty": "Modular prosthetics · EMG & EEG",
+      "bio": "Leads the lab’s assistive robotics area while pursuing an MSc in Mechatronics. His research develops a modular active prosthetic hand and wrist, combining mechanical design with EMG, EEG, and sensor feedback for intuitive control."
+    },
+    {
+      "id": "mozes",
+      "name": "Mózes Nader",
+      "role": "PhD Candidate · Researcher",
+      "group": "Management",
+      "image": "/media/mozes.webp",
+      "email": "mousa.nader@inf.unideb.hu",
+      "specialty": "Human–robot interaction · Biosensing",
+      "bio": "PhD candidate at the Informatics Doctoral School, University of Debrecen, with a BSc in Electrical and Electronic Engineering and an MSc in Mechatronics Engineering. His background includes industrial, quality, and lean engineering. His research covers multimodal perception, algorithmic control, robotic vision, and biosensing."
+    },
+    {
+      "id": "donat",
+      "name": "Elek Donát",
+      "role": "MSc Student · Research Assistant",
+      "group": "MSc",
+      "image": "/media/donat.webp",
+      "email": "elek.donat@mailbox.unideb.hu",
+      "specialty": "Robotino · Autonomous navigation",
+      "bio": "MSc student in Mechatronics Engineering at the University of Debrecen and a TalentUD participant. His research interests include autonomous navigation, collision avoidance, mobile robotics, and unmanned aerial vehicles. He is responsible for the Robotino mobile robot."
+    },
+    {
+      "id": "suliman",
+      "name": "Suliman Ahmed",
+      "role": "PhD Student · Researcher",
+      "group": "PhD",
+      "image": "/media/suliman.webp",
+      "email": "suliman.abdulmalek@inf.unideb.hu",
+      "specialty": "Bionic arms · Signal processing",
+      "bio": "PhD student at the Informatics Doctoral School, University of Debrecen. He holds a BSc in Biomedical Engineering and an MSc in Electrical and Electronic Engineering. His interests include bionic arms, machine learning, signal processing, and remote patient monitoring systems."
+    },
+    {
+      "id": "manuel",
+      "name": "Manuel Afonso Fernandes Junior",
+      "role": "BSc Researcher",
+      "group": "BSc",
+      "image": "/media/team-manuel.webp",
+      "email": "manueljunior14.mj@gmail.com",
+      "specialty": "Computer vision · Person tracking",
+      "bio": "Develops algorithms for person tracking and following. His Mechatronics Engineering work combines control theory, sensor fusion, embedded hardware, motor control, and AI perception, with particular interest in real-time performance on constrained devices."
+    },
+    {
+      "id": "david",
+      "name": "David Pani",
+      "role": "BSc Researcher",
+      "group": "BSc",
+      "image": "/media/team-david.webp",
+      "email": "david18pani@yahoo.com",
+      "specialty": "Human following · Navigation · Sensor fusion",
+      "bio": "Contributes to the pet-robot project, combining SLAM with active human following. His TalentUD autonomous-vehicle work includes path planning, sensor fusion, and obstacle avoidance on an RC-scale mobile platform."
+    },
+    {
+      "id": "abdulrahman-al-allaq",
+      "name": "Abdulrahman Mohammed Al-Allaq",
+      "role": "BSc Researcher",
+      "group": "BSc",
+      "image": "/media/team-abdulrahman-al-allaq.webp",
+      "email": "",
+      "specialty": "ROS · SLAM · Mechanical design",
+      "bio": "Develops a mapping robot using ROS and simultaneous localization and mapping. His background in Mechatronics Engineering includes practical robotics, three-dimensional modelling, and mechanical design."
+    },
+    {
+      "id": "ali-elbishbishy",
+      "name": "Ali Elbishbishy",
+      "role": "BSc Researcher",
+      "group": "BSc",
+      "image": "/media/team-ali-elbishbishy.webp",
+      "email": "",
+      "specialty": "Autonomous UGVs · Hardware integration",
+      "bio": "Develops an autonomous ground vehicle with mapping and obstacle avoidance. His experience includes competitive robotics, FPV systems, integrated electrical and mechanical design, and tuning complete robotic systems."
+    },
+    {
+      "id": "hassan-almakhoul",
+      "name": "Hassan Almakhoul",
+      "role": "MSc Researcher",
+      "group": "MSc",
+      "image": "/media/team-hassan-almakhoul.webp",
+      "email": "",
+      "specialty": "Computer vision · Human following",
+      "bio": "Works on autonomous robots that follow people. He brings experience in computer vision and engineering for wind-turbine manufacturing and maintenance to his MSc research in Mechatronics."
+    },
+    {
+      "id": "hamna-noor",
+      "name": "Hamna Noor",
+      "role": "MSc Researcher",
+      "group": "MSc",
+      "image": "/media/team-hamna-noor.webp",
+      "email": "",
+      "specialty": "EMG analysis · Prosthetic control",
+      "bio": "Investigates EMG signals and muscle-contraction detection using MATLAB and machine learning, supporting control of modular prosthetic devices. She holds a bachelor’s degree in Electrical Engineering and has experience in embedded systems, sensors, microcontrollers, and real-time data acquisition."
+    },
+    {
+      "id": "abdelrahman-thabet",
+      "name": "Abdelrahman Islam Azmi Thabet",
+      "role": "BSc Researcher",
+      "group": "BSc",
+      "image": "/media/team-abdelrahman-thabet.webp",
+      "email": "",
+      "specialty": "Swarm environments · Embedded systems",
+      "bio": "Works on environments for swarm-robot experiments. A Mechatronics Engineering undergraduate, he has experience with an overprotection-system project and participation in science and IoT competitions."
+    },
+    {
+      "id": "dhanuja",
+      "name": "Dhanuja Nawanjana Bamunusinghe",
+      "role": "BSc Researcher · Creative Media",
+      "group": "BSc",
+      "image": "/media/team-dhanuja.webp",
+      "email": "",
+      "specialty": "Robotics communication · Design · Video",
+      "bio": "A Mechatronics Engineering student contributing graphic design, content creation, and video editing to the lab. He combines an interest in robotics and electronics with experience in Adobe creative tools and DaVinci Resolve."
+    },
+    {
+      "id": "nader-noomen",
+      "name": "Nader Noomen",
+      "role": "Student Researcher",
+      "group": "BSc",
+      "image": "/media/team-nader-noomen.webp",
+      "email": "",
+      "specialty": "Voice control · C/C++ · Embedded systems",
+      "bio": "Develops voice-assisted robotic control using offline wake-word detection, speech-to-text processing, and structured command interpretation. His technical background includes C/C++, microcontrollers, PCB design, and introductory ROS 2 development."
+    },
+    {
+      "id": "meriame",
+      "name": "Meriame Ben Khalifa",
+      "role": "MSc Researcher",
+      "group": "MSc",
+      "image": "/media/team-meriame.webp",
+      "email": "",
+      "specialty": "Robot modelling · Automation",
+      "bio": "Works on mathematical modelling of autonomous robots. She holds a bachelor’s degree in Mechatronics from ISET Radès, Tunisia, and brings experience in CAD, automation, embedded systems, and programming."
+    },
+    {
+      "id": "marsail",
+      "name": "Marsail Al-Baqain",
+      "role": "BSc Researcher",
+      "group": "BSc",
+      "image": "/media/team-marsail.webp",
+      "email": "",
+      "specialty": "EEG sensors · Assistive interfaces",
+      "bio": "Reviews EEG sensors, their operating principles, and applications to identify challenges and opportunities for improvement. Her undergraduate Mechatronics background includes electronics, circuit analysis, programming, and practical laboratory work."
+    },
+    {
+      "id": "loay",
+      "name": "Loay Aboelenien",
+      "role": "BSc Researcher",
+      "group": "BSc",
+      "image": "/media/team-loay.webp",
+      "email": "",
+      "specialty": "Gesture recognition · Human–robot interaction",
+      "bio": "Works on robotic interpretation of human hand gestures and decision-making in industrial environments. His skills include C/C++, MATLAB, PLCs, CAD, embedded hardware, automation, and measurement systems."
+    },
+    {
+      "id": "sharon",
+      "name": "Sharon Uchechi Nwachukwu",
+      "role": "BSc Researcher",
+      "group": "BSc",
+      "image": "/media/team-sharon.webp",
+      "email": "",
+      "specialty": "Mechanical design · Modular prosthetic wrist",
+      "bio": "Develops the mechanical design of a modular prosthetic wrist. Her Mechanical Engineering background includes CAD modelling, assembly and drafting, manufacturing processes, engineering management, and fluid mechanics."
+    },
+    {
+      "id": "abbas",
+      "name": "Abbas",
+      "role": "Student Researcher",
+      "group": "BSc",
+      "image": "/media/team-abbas.webp",
+      "email": "",
+      "specialty": "Human intent · Motion-aware navigation",
+      "bio": "Investigates human motion as a signal of intent for navigation. The work considers trajectories, speed, body dynamics, and multimodal perception to support robots moving around people."
+    },
+    {
+      "id": "ramaroson",
+      "name": "Ramaroson Mandrindra",
+      "role": "MSc Researcher",
+      "group": "MSc",
+      "image": "/media/team-ramaroson.webp",
+      "email": "",
+      "specialty": "Swarm robotics · Electronics · Programming",
+      "bio": "Develops the programming and electronics for a leader robot in the swarm platform. His background in Electromechanical Engineering combines programming, electronics, and mechanical systems."
+    },
+    {
+      "id": "attila",
+      "name": "Attila Csaba Gere",
+      "role": "BSc Researcher",
+      "group": "BSc",
+      "image": "/media/team-attila.webp",
+      "email": "",
+      "specialty": "Mechanical design · Prosthetic attachments",
+      "bio": "Designs task-specific mechanical attachments for assistive devices. His technical training includes mechanical design, manufacturing, and automation, with competition experience in CAD and pneumatic systems."
+    },
+    {
+      "id": "zaid",
+      "name": "Zaid Boudchich",
+      "role": "MSc Researcher",
+      "group": "MSc",
+      "image": "/media/team-zaid.webp",
+      "email": "",
+      "specialty": "Swarm platforms · Mechanical engineering",
+      "bio": "Contributes to swarm robotics with a background in Mechanical Engineering. His experience covers mechanical repairs, diagnostics, workshop maintenance, and design of replacement parts for production machinery."
+    },
+    {
+      "id": "hazem",
+      "name": "Hazem Hesham",
+      "role": "BSc Researcher",
+      "group": "BSc",
+      "image": "/media/team-hazem.webp",
+      "email": "",
+      "specialty": "EMG · IMU · Feature extraction",
+      "bio": "Studies muscle activity through EMG measurements for his thesis. His work brings together EMG and IMU signals, feature extraction, and control-system research."
+    },
+    {
+      "id": "hassaan",
+      "name": "Hassaan Khan Sherwani",
+      "role": "Student Researcher",
+      "group": "BSc",
+      "image": "/media/team-hassaan.webp",
+      "email": "",
+      "specialty": "Distributed control · I²C · Mobile robotics",
+      "bio": "Develops multi-node control architectures for mobile robots, including I²C communication between a master controller and subsystems. His work combines mechanical modification, embedded hardware, kinematic modelling, and real-time synchronization."
+    }
+  ],
+  "videos": [
+    {
+      "id": "lab-profile",
+      "title": "Inside A²R · lab profile",
+      "duration": "2:16",
+      "description": "Meet the lab, its people, mobile robots, assistive platforms, and motion-capture environment.",
+      "src": "/media/lab-profile.mp4",
+      "poster": "/media/lab-profile-poster.webp",
+      "summary": "The supplied lab profile introduces autonomous and assistive robotics, the OptiTrack setup, drone tracking, the service robot, and the laboratory’s research and prototyping facilities. Open captions are included in the footage.",
+      "category": "Lab films"
+    },
+    {
+      "id": "lab-film",
+      "title": "Inside A²R",
+      "duration": "2:14",
+      "description": "A tour of the laboratory, from autonomous platforms and motion capture to assistive robotics and prototyping.",
+      "src": "/media/lab-film.mp4",
+      "poster": "/media/lab-film-poster.webp",
+      "summary": "The film introduces the lab’s robotics research and shows mobile robots, an OptiTrack tracking system, assistive prototypes, and electronics and prototyping facilities. Open captions are included in the supplied footage.",
+      "category": "Lab films"
+    },
+    {
+      "id": "lab-demo",
+      "title": "Building an autonomous vehicle",
+      "duration": "0:53",
+      "description": "A closer look at the research vehicle, its sensing hardware, and navigation tools.",
+      "src": "/media/lab-demo.mp4",
+      "poster": "/media/lab-demo-poster.webp",
+      "summary": "A researcher walks through the autonomous vehicle project, showing the physical platform, sensing equipment, and navigation software. Open captions are included in the supplied footage.",
+      "category": "Lab films"
+    },
+    {
+      "id": "reseala",
+      "title": "From biosignals to movement",
+      "duration": "1:47",
+      "description": "Student research connecting mobile robotics, signal processing, and prosthetic hand control.",
+      "src": "/media/reseala.mp4",
+      "poster": "/media/reseala-poster.webp",
+      "summary": "The video shows mobile robots and a researcher explaining a prosthetic control project using recorded muscle signals, gesture classification, and a bionic hand. Open captions are included in the supplied footage.",
+      "category": "Lab films"
+    },
+    {
+      "id": "service-demonstration",
+      "title": "Service robot in the lab",
+      "duration": "0:36",
+      "description": "The service robot moves among the lab’s workstations during an indoor demonstration.",
+      "src": "/media/service-demonstration.mp4",
+      "poster": "/media/service-demonstration-poster.webp",
+      "summary": "The service robot moves among the lab’s workstations during an indoor demonstration. Source: NURAI presentation, slide 6.",
+      "category": "Research"
+    },
+    {
+      "id": "service-navigation",
+      "title": "Service robot: obstacle avoidance",
+      "duration": "2:28",
+      "description": "A longer indoor trial shows the service robot moving around people, tables, and laboratory equipment.",
+      "src": "/media/service-navigation.mp4",
+      "poster": "/media/service-navigation-poster.webp",
+      "summary": "A longer indoor trial shows the service robot moving around people, tables, and laboratory equipment. Source: NURAI presentation, slide 6.",
+      "category": "Research"
+    },
+    {
+      "id": "depth-mapping",
+      "title": "Depth-cloud mapping",
+      "duration": "0:26",
+      "description": "A depth camera captures a scene and displays its three-dimensional point cloud.",
+      "src": "/media/depth-mapping.mp4",
+      "poster": "/media/depth-mapping-poster.webp",
+      "summary": "A depth camera captures a scene and displays its three-dimensional point cloud. Source: NURAI presentation, slide 12.",
+      "category": "Research"
+    },
+    {
+      "id": "navigation-map",
+      "title": "Mapping and localization",
+      "duration": "0:48",
+      "description": "The robot’s mapping and localization interface shows its movement within a reconstructed environment.",
+      "src": "/media/navigation-map.mp4",
+      "poster": "/media/navigation-map-poster.webp",
+      "summary": "The robot’s mapping and localization interface shows its movement within a reconstructed environment. Source: NURAI presentation, slide 13.",
+      "category": "Research"
+    },
+    {
+      "id": "hallway-navigation",
+      "title": "Autonomous hallway navigation",
+      "duration": "0:49",
+      "description": "A wheeled robot navigates an indoor corridor around a placed obstacle.",
+      "src": "/media/hallway-navigation.mp4",
+      "poster": "/media/hallway-navigation-poster.webp",
+      "summary": "A wheeled robot navigates an indoor corridor around a placed obstacle. Source: NURAI presentation, slide 13.",
+      "category": "Research"
+    },
+    {
+      "id": "pet-robot",
+      "title": "Human-following mobile robot",
+      "duration": "0:09",
+      "description": "A compact wheeled robot follows a person through the laboratory.",
+      "src": "/media/pet-robot.mp4",
+      "poster": "/media/pet-robot-poster.webp",
+      "summary": "A compact wheeled robot follows a person through the laboratory. Source: NURAI presentation, slide 13.",
+      "category": "Research"
+    },
+    {
+      "id": "rgbd-mapping",
+      "title": "RGB-D reconstruction",
+      "duration": "1:11",
+      "description": "Camera views and depth data are combined into a three-dimensional map of an indoor environment.",
+      "src": "/media/rgbd-mapping.mp4",
+      "poster": "/media/rgbd-mapping-poster.webp",
+      "summary": "Camera views and depth data are combined into a three-dimensional map of an indoor environment. Source: NURAI presentation, slide 15.",
+      "category": "Research"
+    },
+    {
+      "id": "swarm-localization",
+      "title": "Leader-assisted swarm localization",
+      "duration": "1:37",
+      "description": "A proof of concept combines a LiDAR-equipped leader with low-cost followers and visual markers. The demonstration includes the robot hardware and a simulation of cooperative localization.",
+      "src": "/media/swarm-localization.mp4",
+      "poster": "/media/swarm-localization-poster.webp",
+      "summary": "A proof of concept combines a LiDAR-equipped leader with low-cost followers and visual markers. The demonstration includes the robot hardware and a simulation of cooperative localization. Source: NURAI presentation, slide 17.",
+      "category": "Research"
+    },
+    {
+      "id": "prosthesis-linkage-cad",
+      "title": "Prosthetic mechanism: CAD motion",
+      "duration": "0:42",
+      "description": "A mechanical CAD animation demonstrates the motion of a prosthetic hand mechanism.",
+      "src": "/media/prosthesis-linkage-cad.mp4",
+      "poster": "/media/prosthesis-linkage-cad-poster.webp",
+      "summary": "A mechanical CAD animation demonstrates the motion of a prosthetic hand mechanism. Source: NURAI presentation, slide 18.",
+      "category": "Research"
+    },
+    {
+      "id": "prosthesis-demo",
+      "title": "Bionic hand prototype in motion",
+      "duration": "0:03",
+      "description": "A short laboratory demonstration shows the physical prototype moving its fingers.",
+      "src": "/media/prosthesis-demo.mp4",
+      "poster": "/media/prosthesis-demo-poster.webp",
+      "summary": "A short laboratory demonstration shows the physical prototype moving its fingers. Source: NURAI presentation, slide 18.",
+      "category": "Research"
+    },
+    {
+      "id": "prosthesis-assembly",
+      "title": "Modular hand: assembly design",
+      "duration": "0:20",
+      "description": "An exploded-view CAD animation reveals the structure and assembly of the modular prosthetic hand.",
+      "src": "/media/prosthesis-assembly.mp4",
+      "poster": "/media/prosthesis-assembly-poster.webp",
+      "summary": "An exploded-view CAD animation reveals the structure and assembly of the modular prosthetic hand. Source: NURAI presentation, slide 18.",
+      "category": "Research"
+    },
+    {
+      "id": "prosthesis-finger",
+      "title": "Mechanical finger linkage",
+      "duration": "0:22",
+      "description": "A physical prosthetic finger prototype demonstrates smooth movement through its mechanical linkage.",
+      "src": "/media/prosthesis-finger.mp4",
+      "poster": "/media/prosthesis-finger-poster.webp",
+      "summary": "A physical prosthetic finger prototype demonstrates smooth movement through its mechanical linkage. Source: NURAI presentation, slide 19.",
+      "category": "Research"
+    },
+    {
+      "id": "bci-arm",
+      "title": "EEG interface for robotic control",
+      "duration": "0:29",
+      "description": "A research demonstration links a trained EEG interface with the movement of a robotic device.",
+      "src": "/media/bci-arm.mp4",
+      "poster": "/media/bci-arm-poster.webp",
+      "summary": "A research demonstration links a trained EEG interface with the movement of a robotic device. Source: NURAI presentation, slide 22.",
+      "category": "Research"
+    },
+    {
+      "id": "bci-expression",
+      "title": "EEG interface: expression experiment",
+      "duration": "0:33",
+      "description": "The demonstration shows the training and testing of an EEG-based interface alongside a virtual face.",
+      "src": "/media/bci-expression.mp4",
+      "poster": "/media/bci-expression-poster.webp",
+      "summary": "The demonstration shows the training and testing of an EEG-based interface alongside a virtual face. Source: NURAI presentation, slide 22.",
+      "category": "Research"
+    },
+    {
+      "id": "motor-imagery",
+      "title": "Motor imagery and assistive robotics",
+      "duration": "0:24",
+      "description": "A researcher introduces a prototype that connects motor-imagery experiments with robotic movement.",
+      "src": "/media/motor-imagery.mp4",
+      "poster": "/media/motor-imagery-poster.webp",
+      "summary": "A researcher introduces a prototype that connects motor-imagery experiments with robotic movement. Source: NURAI presentation, slide 23.",
+      "category": "Research"
+    },
+    {
+      "id": "aerial-simulation",
+      "title": "Aerial platform simulation",
+      "duration": "0:10",
+      "description": "A simulation visualizes the motion of an aerial robotic platform.",
+      "src": "/media/aerial-simulation.mp4",
+      "poster": "/media/aerial-simulation-poster.webp",
+      "summary": "A simulation visualizes the motion of an aerial robotic platform. Source: NURAI presentation, slide 28.",
+      "category": "Research"
+    },
+    {
+      "id": "aerial-hardware",
+      "title": "Aerial manipulation hardware",
+      "duration": "0:20",
+      "description": "A close-up demonstration of the experimental drone and its manipulation mechanism.",
+      "src": "/media/aerial-hardware.mp4",
+      "poster": "/media/aerial-hardware-poster.webp",
+      "summary": "A close-up demonstration of the experimental drone and its manipulation mechanism. Source: NURAI presentation, slide 28.",
+      "category": "Research"
+    },
+    {
+      "id": "line-test",
+      "title": "Testing a line-following robot",
+      "duration": "0:11",
+      "description": "Students prepare and test a small mobile robot on a marked track.",
+      "src": "/media/line-test.mp4",
+      "poster": "/media/line-test-poster.webp",
+      "summary": "Students prepare and test a small mobile robot on a marked track. Source: NURAI presentation, slide 30.",
+      "category": "Students"
+    },
+    {
+      "id": "line-circuit",
+      "title": "Line-following circuit trial",
+      "duration": "0:13",
+      "description": "A small autonomous robot follows a winding track during a student robotics trial.",
+      "src": "/media/line-circuit.mp4",
+      "poster": "/media/line-circuit-poster.webp",
+      "summary": "A small autonomous robot follows a winding track during a student robotics trial. Source: NURAI presentation, slide 30.",
+      "category": "Students"
+    },
+    {
+      "id": "competition-run",
+      "title": "Robotics championship: course run",
+      "duration": "0:50",
+      "description": "Competition footage from the NURAI presentation shows a robot tackling a course at a robotics event.",
+      "src": "/media/competition-run.mp4",
+      "poster": "/media/competition-run-poster.webp",
+      "summary": "Competition footage from the NURAI presentation shows a robot tackling a course at a robotics event. Source: NURAI presentation, slide 34.",
+      "category": "Students"
+    },
+    {
+      "id": "line-junctions",
+      "title": "Line-following and junctions",
+      "duration": "0:26",
+      "description": "A student robot follows marked lines and negotiates track junctions.",
+      "src": "/media/line-junctions.mp4",
+      "poster": "/media/line-junctions-poster.webp",
+      "summary": "A student robot follows marked lines and negotiates track junctions. Source: NURAI presentation, slide 35.",
+      "category": "Students"
+    },
+    {
+      "id": "competition-trial-a",
+      "title": "Competition track: first trial",
+      "duration": "0:10",
+      "description": "A short clip shows a student robotics platform on the competition track.",
+      "src": "/media/competition-trial-a.mp4",
+      "poster": "/media/competition-trial-a-poster.webp",
+      "summary": "A short clip shows a student robotics platform on the competition track. Source: NURAI presentation, slide 36.",
+      "category": "Students"
+    },
+    {
+      "id": "competition-trial-b",
+      "title": "Competition track: second trial",
+      "duration": "0:11",
+      "description": "A second track view documents student testing and competition activity.",
+      "src": "/media/competition-trial-b.mp4",
+      "poster": "/media/competition-trial-b-poster.webp",
+      "summary": "A second track view documents student testing and competition activity. Source: NURAI presentation, slide 36.",
+      "category": "Students"
+    },
+    {
+      "id": "maze-simulation",
+      "title": "Maze-solving simulation",
+      "duration": "0:28",
+      "description": "A maze animation illustrates an exploration and route-planning exercise in the presentation’s student robotics section.",
+      "src": "/media/maze-simulation.mp4",
+      "poster": "/media/maze-simulation-poster.webp",
+      "summary": "A maze animation illustrates an exploration and route-planning exercise in the presentation’s student robotics section. Source: NURAI presentation, slide 41.",
+      "category": "Students"
+    },
+    {
+      "id": "motion-capture",
+      "title": "Inside the intelligent space · motion capture",
+      "duration": "2:48",
+      "description": "A closer look at OptiTrack cameras, reflective markers, trajectory recording, and robot motion analysis.",
+      "src": "/media/motion-capture.mp4",
+      "poster": "/media/motion-capture-poster.webp",
+      "summary": "The supplied film shows OptiTrack Prime 22 cameras, calibration and reflective markers, three-dimensional tracking, trajectory displays, and laboratory trials with aerial and mobile robots. It explains how recorded motion can support analysis, planning, and system evaluation. Open captions are included in the footage.",
+      "category": "Research"
+    }
+  ],
+  "news": [
+    {
+      "id": "nurai",
+      "date": "April 2026",
+      "tag": "Research presentation",
+      "title": "A view across A²R research",
+      "description": "The NURAI presentation brings together autonomous navigation, swarm algorithms, prosthetic development, biosignal interfaces, and aerial manipulation.",
+      "image": "/media/aerial-team.webp",
+      "action": "research"
+    },
+    {
+      "id": "championship",
+      "date": "2024",
+      "tag": "Student robotics",
+      "title": "Robotics beyond the laboratory",
+      "description": "The supplied presentation documents the Debrecen robotic team’s line-follower work at the Robotics Championship International in Oradea, Romania.",
+      "image": "/media/competition.webp",
+      "action": "team"
+    }
+  ],
+  "collaboration": [
+    {
+      "id": "research",
+      "title": "Joint research & grant proposals",
+      "description": "Discuss a shared research question, complementary expertise, and a potential work package in autonomous or assistive robotics.",
+      "prompt": "Research question, target call, proposed partners, and timeline"
+    },
+    {
+      "id": "industry",
+      "title": "Industry & technology development",
+      "description": "Explore robotic sensing, navigation, control, or prototype development around a concrete technical challenge.",
+      "prompt": "Technical challenge, use environment, available data, and desired outcome"
+    },
+    {
+      "id": "academic",
+      "title": "Academic & experimental cooperation",
+      "description": "Connect methods and physical platforms through joint experiments, comparative studies, and researcher exchange.",
+      "prompt": "Experimental question, methods, platform needs, and collaboration format"
+    },
+    {
+      "id": "student",
+      "title": "Student research & thesis projects",
+      "description": "Introduce your interests and background to discuss a possible contribution to the lab’s ongoing research.",
+      "prompt": "Degree program, research interests, relevant skills, and availability"
+    }
+  ],
+  "heroSlides": [
+    {
+      "id": "electronics",
+      "image": "/media/lab-electronics.webp",
+      "alt": "Students developing robots at the A²R electronics workbench",
+      "label": "Ideas take shape in our laboratory"
+    },
+    {
+      "id": "prototyping",
+      "image": "/media/lab-prototyping.webp",
+      "alt": "Researchers working beside a Prusa 3D printer and a motion capture camera",
+      "label": "From digital design to physical systems"
+    },
+    {
+      "id": "students",
+      "image": "/media/student-sumo.webp",
+      "alt": "Students preparing autonomous robots for a sumo challenge",
+      "label": "Learning through experimentation"
+    },
+    {
+      "id": "workspace",
+      "image": "/media/lab-workspace.webp",
+      "alt": "Assistive robotics prototypes and students in the A²R laboratory",
+      "label": "Robotics built around human potential"
+    }
+  ],
+  "pi": {
+    "title": "Dr. Husam A. Neamah Almusawi",
+    "subtitle": "Principal Investigator · Associate Professor",
+    "image": "/media/husam-pi.webp",
+    "bio": "Associate Professor at the University of Debrecen and founder of A²R in 2017. He researches autonomous navigation, socially interactive robotics, biomechatronic systems, and computational modelling. He earned his MSc in Mechatronics Engineering in 2017 and PhD in Engineering Technology and Informatics in 2021, both at Debrecen, with the PhD awarded summa cum laude. Since 2025, he has also served as a Visiting Professor at Bonn-Rhein-Sieg University of Applied Sciences, teaching artificial intelligence for robotics.",
+    "research": "His research connects autonomous mobile systems and human-centred robotics: navigation and obstacle avoidance, cognitive interaction, prosthetic and rehabilitation devices, optimization, and modelling. He supervises BSc, MSc, TalentUD, TDK/OTDK, and doctoral research.",
+    "leadership": "Vice Chair of the IEEE Industrial Electronics Society Technical Committee on Control, Robotics and Mechatronics since 2023; member of IEEE IES and IEEE RAS. He contributes to international IEEE conferences and the editorial leadership of Recent Innovations in Mechatronics.",
+    "education": [
+      "2021 · PhD, Engineering Technology and Informatics · Summa cum laude",
+      "2017 · MSc, Mechatronics Engineering · Excellent with honours",
+      "BSc, Computer Engineering · Al-Mamon University College"
+    ],
+    "appointments": [
+      "2025–present · Associate Professor, University of Debrecen",
+      "2025–present · Visiting Professor, Bonn-Rhein-Sieg University of Applied Sciences",
+      "2017–present · Founder & Director, A²R Research Lab",
+      "2020–2024 · Head, Measurement and Data Acquisition Laboratory"
+    ],
+    "supervision": "Mentoring spans thesis projects, doctoral research, and student talent programmes. The CV reports two first-place Faculty TDK results and one first-place national OTDK result during the 2024–2025 fellowship period.",
+    "source": "Academic CV supplied by the PI · August 2026"
+  },
+  "advisors": [
+    {
+      "id": "mihoko-niitsuma",
+      "name": "Mihoko Niitsuma",
+      "role": "Professor",
+      "affiliation": "Chuo University",
+      "country": "Japan",
+      "image": "/media/advisor-mihoko-niitsuma.webp",
+      "profile": "https://www.linkedin.com/in/mihoko-niitsuma-1516ba28/",
+      "source": "https://researchers.chuo-u.ac.jp/html/100003203_en.html",
+      "photoCredit": "https://plus-c.chuo-u.ac.jp/researcher/mihoko-niitsuma/"
+    },
+    {
+      "id": "peter-salga",
+      "name": "Péter Salga",
+      "role": "CEO",
+      "affiliation": "Dyntell Software",
+      "country": "Hungary",
+      "image": "/media/advisor-peter-salga.webp",
+      "profile": "https://www.linkedin.com/in/petersalgadyntell/",
+      "source": "https://karrier.dyntell.com/index.php/sections/bemutatkozas/",
+      "photoCredit": "https://karrier.dyntell.com/index.php/sections/bemutatkozas/"
+    },
+    {
+      "id": "katalin-schaffer",
+      "name": "Katalin Schäffer",
+      "role": "PhD student, Aerospace and Mechanical Engineering",
+      "affiliation": "University of Notre Dame",
+      "country": "United States",
+      "image": "/media/advisor-katalin-schaffer.webp",
+      "profile": "https://www.linkedin.com/in/katalin-sch%C3%A4ffer-059a1523b/",
+      "source": "https://irislab.nd.edu/people/graduate-students/katalin-schaffer/",
+      "photoCredit": "https://irislab.nd.edu/people/graduate-students/katalin-schaffer/"
+    },
+    {
+      "id": "anna-burduk",
+      "name": "Anna Burduk",
+      "role": "Professor",
+      "affiliation": "Wrocław University of Science and Technology",
+      "country": "Poland",
+      "image": "/media/advisor-anna-burduk.webp",
+      "profile": "https://www.linkedin.com/in/anna-burduk-099235121/",
+      "source": "https://pwr.edu.pl/uczelnia/aktualnosci/mamy-troje-nowych-profesorow-13076.html",
+      "photoCredit": "https://pwr.edu.pl/uczelnia/aktualnosci/mamy-troje-nowych-profesorow-13076.html"
+    },
+    {
+      "id": "sandor-hajdu",
+      "name": "Sándor Hajdu",
+      "role": "Associate Professor; Head of Department",
+      "affiliation": "University of Debrecen",
+      "country": "Hungary",
+      "image": "/media/advisor-sandor-hajdu.webp",
+      "profile": "https://www.linkedin.com/in/s%C3%A1ndor-hajdu-676862359/",
+      "source": "https://eng.unideb.hu/munkatars/3285",
+      "photoCredit": "https://eng.unideb.hu/munkatars/3285"
+    },
+    {
+      "id": "javad-ghofrani",
+      "name": "Javad Ghofrani",
+      "role": "Professor of Autonomous Systems",
+      "affiliation": "Bonn-Rhein-Sieg University of Applied Sciences",
+      "country": "Germany",
+      "image": "/media/advisor-javad-ghofrani.webp",
+      "profile": "https://www.linkedin.com/in/prof-javad-ghofrani-787329184/",
+      "source": "https://www.h-brs.de/en/inf/news/autonomous-systems-professorship-dr-javad-ghofrani",
+      "photoCredit": "https://www.zat.nrw/teams/hsbrs/ghofrani/"
+    },
+    {
+      "id": "gabriella-lakatos",
+      "name": "Gabriella Lakatos",
+      "role": "Senior Lecturer",
+      "affiliation": "University of Hertfordshire",
+      "country": "United Kingdom",
+      "image": "/media/advisor-gabriella-lakatos.webp",
+      "profile": "https://www.linkedin.com/in/gabriella-lakatos-2a976915/",
+      "source": "https://researchprofiles.herts.ac.uk/en/persons/gabriella-lakatos/",
+      "photoCredit": "https://researchprofiles.herts.ac.uk/en/persons/gabriella-lakatos/"
+    },
+    {
+      "id": "teena-hassan",
+      "name": "Teena Hassan",
+      "role": "Professor of Computer Science",
+      "affiliation": "Bonn-Rhein-Sieg University of Applied Sciences",
+      "country": "Germany",
+      "image": "/media/advisor-teena-hassan.webp",
+      "profile": "https://www.linkedin.com/in/prof-dr-teena-hassan-841ba415/",
+      "source": "https://zat.nrw/teams/hsbrs/hassan/",
+      "photoCredit": "https://zat.nrw/teams/hsbrs/hassan/"
+    },
+    {
+      "id": "justyna-trojanowska",
+      "name": "Justyna Trojanowska",
+      "role": "Assistant Professor; Vice-Dean for Cooperation with Industry",
+      "affiliation": "Poznan University of Technology",
+      "country": "Poland",
+      "image": "/media/advisor-justyna-trojanowska.webp",
+      "profile": "https://www.linkedin.com/in/justyna-trojanowska/",
+      "source": "https://eng.unideb.hu/en/dr-justyna-trojanowska-poznan-university-technology-poland",
+      "photoCredit": "https://eng.unideb.hu/en/dr-justyna-trojanowska-poznan-university-technology-poland"
+    },
+    {
+      "id": "kosuke-shikata",
+      "name": "Kosuke Shikata",
+      "role": "Assistant Professor (Non-tenured); PhD candidate",
+      "affiliation": "Keio University",
+      "country": "Japan",
+      "image": "/media/advisor-kosuke-shikata.webp",
+      "profile": "https://www.linkedin.com/in/cicodeer/",
+      "source": "https://www.keio.ac.jp/en/faculty/k_100017939/",
+      "photoCredit": "https://www.keio.ac.jp/en/faculty/k_100017939/"
+    },
+    {
+      "id": "fatima-zahra-abou-eddahab-burke",
+      "name": "Fatima-Zahra Abou Eddahab-Burke",
+      "role": "Assistant Professor",
+      "affiliation": "Delft University of Technology",
+      "country": "Netherlands",
+      "image": "/media/advisor-fatima-zahra-abou-eddahab-burke.webp",
+      "profile": "https://www.linkedin.com/in/fatima-zahra-abou-eddahab-burke-phd-7211181a/",
+      "source": "https://research.tudelft.nl/en/persons/fatima-zahra-abou-eddahab-burke/",
+      "photoCredit": "https://research.tudelft.nl/en/persons/fatima-zahra-abou-eddahab-burke/"
+    },
+    {
+      "id": "marcian-cirstea",
+      "name": "Marcian Cirstea",
+      "role": "Professor; Head of School, Computing and Information Science",
+      "affiliation": "Anglia Ruskin University",
+      "country": "United Kingdom",
+      "image": "/media/advisor-marcian-cirstea.webp",
+      "profile": "https://www.linkedin.com/in/marcian-cirstea-0254a08/",
+      "source": "https://www.aru.ac.uk/people/marcian-cirstea",
+      "photoCredit": "https://www.aru.ac.uk/people/marcian-cirstea"
+    },
+    {
+      "id": "ya-jun-pan",
+      "name": "Ya-Jun Pan",
+      "role": "Professor of Mechanical Engineering",
+      "affiliation": "Dalhousie University",
+      "country": "Canada",
+      "image": "/media/advisor-ya-jun-pan.webp",
+      "profile": "https://www.linkedin.com/in/ya-jun-pan-44b687189/",
+      "source": "https://www.dal.ca/faculty/engineering/mechanical/faculty-staff/our-faculty/professors/ya-jun-pan.html",
+      "photoCredit": "https://www.dal.ca/faculty/engineering/mechanical/faculty-staff/our-faculty/professors/ya-jun-pan.html"
+    },
+    {
+      "id": "suthep-butdee",
+      "name": "Suthep Butdee",
+      "role": "Expert",
+      "affiliation": "Rajamangala University of Technology Krungthep",
+      "country": "Thailand",
+      "image": "/media/advisor-suthep-butdee.webp",
+      "profile": "https://www.linkedin.com/in/suthep-butdee-31816430/",
+      "source": "https://th.linkedin.com/in/suthep-butdee-31816430",
+      "photoCredit": "https://pe.kmutnb.ac.th/faculty/stb/"
+    },
+    {
+      "id": "seiichiro-katsura",
+      "name": "Seiichiro Katsura",
+      "role": "Professor of System Design Engineering",
+      "affiliation": "Keio University",
+      "country": "Japan",
+      "image": "/media/advisor-seiichiro-katsura.webp",
+      "profile": "https://www.linkedin.com/in/seiichiro-katsura-a602803a/",
+      "source": "https://www.keio.ac.jp/en/faculty/k_100011690/",
+      "photoCredit": "https://www.keio.ac.jp/en/faculty/k_100011690/"
+    },
+    {
+      "id": "peter-korondi",
+      "name": "Péter Korondi",
+      "role": "Professor",
+      "affiliation": "University of Debrecen",
+      "country": "Hungary",
+      "image": "/media/advisor-peter-korondi.webp",
+      "profile": "https://eng.unideb.hu/prof-dr-korondi-peter",
+      "source": "https://eng.unideb.hu/prof-dr-korondi-peter",
+      "photoCredit": "https://eng.unideb.hu/prof-dr-korondi-peter"
+    },
+    {
+      "id": "geza-husi",
+      "name": "Géza Husi",
+      "role": "Professor",
+      "affiliation": "University of Debrecen",
+      "country": "Hungary",
+      "image": "/media/advisor-geza-husi.webp",
+      "profile": "https://eng.unideb.hu/munkatars/4074",
+      "source": "https://eng.unideb.hu/munkatars/4074",
+      "photoCredit": "https://eng.unideb.hu/munkatars/4074"
+    },
+    {
+      "id": "aminu-babangida",
+      "name": "Aminu Babangida",
+      "role": "Advisory committee member",
+      "affiliation": "Aliko Dangote University of Science and Technology, Wudil",
+      "country": "Nigeria",
+      "image": "",
+      "profile": "https://www.linkedin.com/in/aminu-babangida-98463714a/",
+      "source": "https://hu.linkedin.com/in/aminu-babangida-98463714a",
+      "photoCredit": ""
+    },
+    {
+      "id": "mutaz-ryalat",
+      "name": "Mutaz M. Ryalat",
+      "role": "Professor of Mechatronics Engineering",
+      "affiliation": "German Jordanian University",
+      "country": "Jordan",
+      "image": "/media/advisor-mutaz-ryalat.webp",
+      "profile": "https://www.linkedin.com/in/mutaz-ryalat-54473228/",
+      "source": "https://www.gju.edu.jo/content/dr-mutaz-m-ryalat-5647",
+      "photoCredit": "https://www.gju.edu.jo/content/dr-mutaz-m-ryalat-5647"
+    },
+    {
+      "id": "alaa-saadah",
+      "name": "Alaa Saadah",
+      "role": "Advisory committee member",
+      "affiliation": "Idealworks",
+      "country": "Germany",
+      "image": "/media/advisor-alaa-saadah.webp",
+      "profile": "https://www.linkedin.com/in/alaa-saadah-9a1458a7/",
+      "source": "https://de.linkedin.com/in/alaa-saadah-9a1458a7",
+      "photoCredit": "https://www.xing.com/profile/Alaa_Saadah"
+    }
+  ],
+  "alumni": [
+    {
+      "id": "rayan-kazi-562b81236",
+      "name": "Rayan Kazi",
+      "year": "2022",
+      "profile": "https://www.linkedin.com/in/rayan-kazi-562b81236/"
+    },
+    {
+      "id": "abdelrahman-elsissy-a2866722a",
+      "name": "Abdelrahman Elsissy",
+      "year": "2022",
+      "profile": "https://www.linkedin.com/in/abdelrahman-elsissy-a2866722a/"
+    },
+    {
+      "id": "abdullah-al-husseini-000a36198",
+      "name": "Abdullah Al-Husseini",
+      "year": "2020",
+      "profile": "https://www.linkedin.com/in/abdullah-al-husseini-000a36198/"
+    },
+    {
+      "id": "mohammed-al-jabali-31b3b6221",
+      "name": "Mohammed Al-Jabali",
+      "year": "2020",
+      "profile": "https://www.linkedin.com/in/mohammed-al-jabali-31b3b6221/"
+    },
+    {
+      "id": "daniel-al-aridi",
+      "name": "Daniel Al-Aridi",
+      "year": "2021",
+      "profile": "https://www.linkedin.com/in/daniel-al-aridi/"
+    },
+    {
+      "id": "bobur-abdiev-5bb2a4182",
+      "name": "Bobur Abdiev",
+      "year": "2021",
+      "profile": "https://www.linkedin.com/in/bobur-abdiev-5bb2a4182/"
+    },
+    {
+      "id": "david-bello-307438337",
+      "name": "David Bello",
+      "year": "2025",
+      "profile": "https://www.linkedin.com/in/david-bello-307438337/"
+    },
+    {
+      "id": "sanzhar-i-ab4462200",
+      "name": "Sanzhar I.",
+      "year": "2024",
+      "profile": "https://www.linkedin.com/in/sanzhar-i-ab4462200/"
+    },
+    {
+      "id": "christoph-mbirimujo-15a455295",
+      "name": "Christoph Mbirimujo",
+      "year": "2025",
+      "profile": "https://www.linkedin.com/in/christoph-mbirimujo-15a455295/"
+    },
+    {
+      "id": "noureldin-awad-4238181a4",
+      "name": "Noureldin Awad",
+      "year": "2025",
+      "profile": "https://www.linkedin.com/in/noureldin-awad-4238181a4/"
+    },
+    {
+      "id": "destiny-iheanacho-a71383228",
+      "name": "Destiny Iheanacho",
+      "year": "2024",
+      "profile": "https://www.linkedin.com/in/destiny-iheanacho-a71383228/"
+    },
+    {
+      "id": "osasere-joy-egharevba",
+      "name": "Osasere Joy Egharevba",
+      "year": "2021",
+      "profile": "https://www.linkedin.com/in/osasere-joy-egharevba/"
+    },
+    {
+      "id": "hanna-madbak",
+      "name": "Hanna Madbak",
+      "year": "2021",
+      "profile": "https://www.linkedin.com/in/hanna-madbak/"
+    },
+    {
+      "id": "tiolu-tijani",
+      "name": "Tiolu Tijani",
+      "year": "2019",
+      "profile": "https://www.linkedin.com/in/tiolu-tijani/"
+    },
+    {
+      "id": "james-thuku-2449bb179",
+      "name": "James Thuku",
+      "year": "2019",
+      "profile": "https://www.linkedin.com/in/james-thuku-2449bb179/"
+    },
+    {
+      "id": "hasan-kujuk-731738296",
+      "name": "Hasan Kujuk",
+      "year": "2020",
+      "profile": "https://www.linkedin.com/in/hasan-kujuk-731738296/"
+    },
+    {
+      "id": "philopateer-akhnookh-464474229",
+      "name": "Philopateer Akhnookh",
+      "year": "2020",
+      "profile": "https://www.linkedin.com/in/philopateer-akhnookh-464474229/"
+    },
+    {
+      "id": "haitham-alhihi",
+      "name": "Haitham Alhihi",
+      "year": "2018",
+      "profile": "https://www.linkedin.com/in/haitham-alhihi/"
+    },
+    {
+      "id": "omar-bahy",
+      "name": "Omar Bahy",
+      "year": "2019",
+      "profile": "https://www.linkedin.com/in/omar-bahy/"
+    },
+    {
+      "id": "nuran-jafarov",
+      "name": "Nuran Jafarov",
+      "year": "2019",
+      "profile": "https://www.linkedin.com/in/nuran-jafarov/"
+    },
+    {
+      "id": "alialarabid",
+      "name": "Ali Alarabid",
+      "year": "2020",
+      "profile": "https://www.linkedin.com/in/alialarabid/"
+    },
+    {
+      "id": "hamzah-mohammed",
+      "name": "Hamzah Mohammed",
+      "year": "2022",
+      "profile": "https://www.linkedin.com/in/hamzah-mohammed/"
+    },
+    {
+      "id": "rawitch-butdee-a506a91b3",
+      "name": "Rawitch Butdee",
+      "year": "2023",
+      "profile": "https://www.linkedin.com/in/rawitch-butdee-a506a91b3/"
+    },
+    {
+      "id": "abdelrahman-ahmed-39142123b",
+      "name": "Abdelrahman Ahmed",
+      "year": "2024",
+      "profile": "https://www.linkedin.com/in/abdelrahman-ahmed-39142123b/"
+    },
+    {
+      "id": "esosa-egharevba-2042981b3",
+      "name": "Esosa Egharevba",
+      "year": "2022",
+      "profile": "https://www.linkedin.com/in/esosa-egharevba-2042981b3/"
+    },
+    {
+      "id": "einejeameh",
+      "name": "Eineje Ameh",
+      "year": "2022",
+      "profile": "https://www.linkedin.com/in/einejeameh/"
+    },
+    {
+      "id": "masoud-melhem-616988193",
+      "name": "Masoud Melhem",
+      "year": "2017",
+      "profile": "https://www.linkedin.com/in/masoud-melhem-616988193/"
+    },
+    {
+      "id": "firas-abbassi-623609172",
+      "name": "Firas Abbassi",
+      "year": "2023",
+      "profile": "https://www.linkedin.com/in/firas-abbassi-623609172/"
+    },
+    {
+      "id": "jack-jacob-jose-767375163",
+      "name": "Jack Jacob Jose",
+      "year": "2021",
+      "profile": "https://www.linkedin.com/in/jack-jacob-jose-767375163/"
+    },
+    {
+      "id": "mezzi-wafa-5101961a4",
+      "name": "Wafa Mezzi",
+      "year": "2018",
+      "profile": "https://www.linkedin.com/in/mezzi-wafa-5101961a4/"
+    }
+  ],
+  "publications": [
+    {
+      "id": "cv-1",
+      "title": "A predictive cellular automata framework with SSA-LSTM and ACC for safe and efficient autonomous driving",
+      "authors": "Yufei, Tao ; Neamah, Husam A.",
+      "venue": "TRANSPORTATION RESEARCH INTERDISCIPLINARY PERSPECTIVES 36 Paper: 101828 , 24 p. (2026)",
+      "year": "2026",
+      "rankings": [
+        "D1"
+      ],
+      "doi": "10.1016/j.trip.2025.101828",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:D03iK_w7-QYC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "corresponding author"
+    },
+    {
+      "id": "cv-2",
+      "title": "Recognition of emotions and non-verbal communication characteristics in human-robot interactions - the experience of a systematic review",
+      "authors": "Őrsi, Balázs ; Korondi, Péter ; Csukonyi, Csilla ; Papp, Dávid ; Márkus, Panna ; Selejó Joó, Bence Tamás ; Neamah, Husam A. ; Kovács, Karolina Eszter",
+      "venue": "SOCIAL SCIENCES & HUMANITIES OPEN 13 Paper: 102387 , 15 p. (2026)",
+      "year": "2026",
+      "rankings": [
+        "Q1"
+      ],
+      "doi": "10.1016/j.ssaho.2025.102387",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:zA6iFVUQeVQC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "co-author"
+    },
+    {
+      "id": "cv-3",
+      "title": "Enhancing classification accuracy for hand opening and closing using hybrid sEMG and fNIRS feature fusion",
+      "authors": "Abid, Urooj ; Akhter, Jamila ; Nazeer, Hammad ; Naseer, Noman ; Neamah, Husam A.",
+      "venue": "RESULTS IN CONTROL AND OPTIMIZATION 24 Paper: 100782 (2026)",
+      "year": "2026",
+      "rankings": [
+        "Q1",
+        "Q2"
+      ],
+      "doi": "10.1016/j.rico.2026.100782",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:b0M2c_1WBrUC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "co-author"
+    },
+    {
+      "id": "cv-4",
+      "title": "A critical review of analytical approaches to path planning for autonomous mobile robots",
+      "authors": "Al-Ansarry, Suhaib ; Al-Darraji, Salah ; Shareef, Asmaa ; AL-Asadi, Hamid Ali Abed ; Abduljabbar, Zaid Ameen ; Jassim, Hothefa Shaker ; Nyangaresi, Vincent Omollo ; Péter, Korondi ; Neamah, Husam A.",
+      "venue": "DECISION ANALYTICS JOURNAL 20 Paper: 100722 , 30 p. (2026)",
+      "year": "2026",
+      "rankings": [
+        "D1",
+        "Q1"
+      ],
+      "doi": "10.1016/j.dajour.2026.100722",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:f2IySw72cVMC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "corresponding author"
+    },
+    {
+      "id": "cv-5",
+      "title": "Neurocognitive Mechanisms of Urban Experience: How the Built Environment Shapes Perception, Emotion and Well-Being",
+      "authors": "Éva, Lovra ; Réka, Aradi ; Husam, A. Neamah Almusawi ; Kovács, Karolina Eszter",
+      "venue": "In: Exploring Trends in Cognitive Science (2026) pp. 35-36. , 2 p. DEA",
+      "year": "2026",
+      "rankings": [],
+      "doi": "",
+      "scholar": "https://scholar.google.com/scholar?q=Neurocognitive%20Mechanisms%20of%20Urban%20Experience%3A%20How%20the%20Built%20Environment%20Shapes%20Perception%2C%20Emotion%20and%20Well-Being",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "co-author"
+    },
+    {
+      "id": "cv-6",
+      "title": "Bilinear Pairing and Deffie-Hellman Based Anonymous Authentication Protocol for the Internet of Vehicles",
+      "authors": "Mustafa, A. Al Sibahee ; Zaid, Ameen Abduljabbar ; Vincent, Omollo Nyangaresi ; Jianqiang, Li ; Chengwen, Luo  ; Alladoumbaye, Ngueilbaye ; Junchao, Ma ; Yijing, Huang ; Jin, Zhang ; Husam, A. Neamah",
+      "venue": "IEEE TRANSACTIONS ON DEPENDABLE AND SECURE COMPUTING 23 : 2 pp. 2635-2647. , 14 p. (2026)",
+      "year": "2026",
+      "rankings": [
+        "D1"
+      ],
+      "doi": "10.1109/TDSC.2025.3628710",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:fPk4N6BV_jEC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "co-author"
+    },
+    {
+      "id": "scholar-3",
+      "title": "Enhanced arrhythmia diagnosis using a hybrid deep learning model: A CNN-LSTM-GRU approach on ECG data",
+      "authors": "AA Mohammed, ZA Al-Sulami, MM Abd Zaid, ZA Abduljabbar, ...",
+      "venue": "Biosensors and Bioelectronics: X, 100767",
+      "year": "2026",
+      "rankings": [],
+      "doi": "",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:a0OBvERweLwC",
+      "source": "Google Scholar · retrieved 10 September 2026",
+      "role": ""
+    },
+    {
+      "id": "scholar-5",
+      "title": "Vibration analysis of a rotating FGM cracked beam under a tangent follower force",
+      "authors": "AH Fadhel, TEH Elaikh, AH Ali, HA Neamah",
+      "venue": "Forces in Mechanics, 100355",
+      "year": "2026",
+      "rankings": [],
+      "doi": "",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:cFHS6HbyZ2cC",
+      "source": "Google Scholar · retrieved 10 September 2026",
+      "role": ""
+    },
+    {
+      "id": "cv-7",
+      "title": "Value-at-Risk Estimation in the Tadawul Exchange: A Comparison of Recurrent Neural Networks and GARCH Models",
+      "authors": "Abdaljbbar, B. A. Dawod ; Mohammed, Nsaif ; Dhafer, G. Honi ; Ismail, H. Abdi ; Husam, A. Neamah",
+      "venue": "Systems and Soft Computing 7 pp. 1-14. Paper: 200411 , 14 p. (2025)",
+      "year": "2025",
+      "rankings": [
+        "Q2"
+      ],
+      "doi": "10.1016/j.sasc.2025.200411",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:g5m5HwL7SMYC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "corresponding author"
+    },
+    {
+      "id": "cv-8",
+      "title": "Anonymous Wireless Body Area Networks Authentication Protocol Based On Biometrics and Asymmetric Key Cryptography",
+      "authors": "Abdul-Aziz Mutlaq, Keyan ; Abduljabbar, Zaid Ameen ; Hasson, Mushtaq A. ; Nyangaresi, Vincent Omollo ; Al Sibahee, Mustafa A. ; Ma, Junchao ; Umran, Samir M. ; Ali, Ali Hasan ; Aldarwish, Abdulla J.Y. ; Neamah, Husam A.",
+      "venue": "ARRAY 27 pp. 1-13. Paper: 100463 , 13 p. (2025)",
+      "year": "2025",
+      "rankings": [
+        "Q1"
+      ],
+      "doi": "10.1016/j.array.2025.100463",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:hMod-77fHWUC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "co-author"
+    },
+    {
+      "id": "cv-9",
+      "title": "Vehicular ad hoc networks verification scheme based on bilinear pairings and networks reverse fuzzy extraction",
+      "authors": "Abduljabbar, Zaid Ameen  ; Nyangaresi, Vincent Omollo ; Ahmed, Ahmed Ali ; Ma, Junchao  ; Al Sibahee, Mustafa A. ; Hussain, Mohammed Abdulridha ; Hussien, Zaid Alaa ; Ali, Ali Hasan ; Aldarwish, Abdulla J. Y. ; Neamah, Husam A.",
+      "venue": "SCIENTIFIC REPORTS 15 : 1 Paper: 29225 (2025)",
+      "year": "2025",
+      "rankings": [
+        "Q1"
+      ],
+      "doi": "10.1038/s41598-025-15011-x",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:GnPB-g6toBAC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "co-author"
+    },
+    {
+      "id": "cv-10",
+      "title": "Modeling the Behavior of a Generalized Cholera Epidemic Model with Asymptomatic Measures for Early Detection",
+      "authors": "Ali, Hasan Ali  ; Aqeel, Ahmad  ; Fakher, Abbas ; Evren, Hincal ; Abdul, Ghaffar ; Belal, Batiha ; Husam, A. Neamah",
+      "venue": "PLOS ONE 20 : 3 Paper: e0319684 , 26 p. (2025)",
+      "year": "2025",
+      "rankings": [
+        "Q1"
+      ],
+      "doi": "10.1371/journal.pone.0319684",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:k_IJM867U9cC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "corresponding author"
+    },
+    {
+      "id": "cv-11",
+      "title": "Optimizing graphical network design using fuzzy hypersoft topologies and multi-criteria VIKOR decision algorithms",
+      "authors": "Anwar, Shabana ; Jamil, Muhammad Kamran ; Jassim, Hothefa Shaker  ; Azeem, Muhammad ; Almohsen, Bandar ; Neamah, Husam A.",
+      "venue": "INTERNATIONAL JOURNAL OF ELECTRICAL POWER AND ENERGY SYSTEMS 172 Paper: 111134 , 34 p. (2025)",
+      "year": "2025",
+      "rankings": [
+        "Q1"
+      ],
+      "doi": "10.1016/j.ijepes.2025.111134",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:RYcK_YlVTxYC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "corresponding author"
+    },
+    {
+      "id": "cv-12",
+      "title": "Super Twisting Sliding Mode Control for High-Efficiency and Fast Charging of Electric Vehicles using Current-Fed Resonant Converter: 400 V and 800 V Validation",
+      "authors": "Furqan, Muhammad ; Uddin, Waqar ; Zeb, Kamran ; Khalid, Muhammad ; Neamah, Husam A.",
+      "venue": "RESULTS IN ENGINEERING 28 Paper: 107945 , 32 p. (2025)",
+      "year": "2025",
+      "rankings": [
+        "D1"
+      ],
+      "doi": "10.1016/j.rineng.2025.107945",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:pqnbT2bcN3wC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "corresponding author"
+    },
+    {
+      "id": "cv-13",
+      "title": "How mathematical models might predict desertification from global warming and dust pollutants",
+      "authors": "Hakeem, Eman ; Jawad, Shireen ; Ali, Ali Hasan  ; Mohamed, Kallel ; Neamah, Husam A.",
+      "venue": "METHODSX 14 Paper: 103259 , 19 p. (2025)",
+      "year": "2025",
+      "rankings": [
+        "Q1"
+      ],
+      "doi": "10.1016/j.mex.2025.103259",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:isC4tDSrTZIC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "co-author"
+    },
+    {
+      "id": "cv-14",
+      "title": "Mental Command-Driven Exoskeletons: Integrating EEG and ERP for Personalized Stroke Rehabilitation",
+      "authors": "Husam, A. Neamah ; Rayan, Kazi ; Suliman, Abdulmalek ; Hothefa, Shaker Jassim ; Zaid, Ameen Abduljabbar",
+      "venue": "STUDIES IN SYSTEMS DECISION AND CONTROL 590 pp. 979-989. , 11 p. (2025)",
+      "year": "2025",
+      "rankings": [
+        "Q4"
+      ],
+      "doi": "10.1007/978-3-031-88874-8_87",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:35N4QoGY0k4C",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "first author"
+    },
+    {
+      "id": "cv-15",
+      "title": "Towards Secure QR-Based Message for E2E Communication in IoT- Cloud",
+      "authors": "Iman, Fareed khazal ; Hend, Muslim Jasim ; Mushtaq, A. Hasson ; Zaid, Ameen Abduljabbar ; Vincent, Omollo Nyangaresi ; Abdulla, J. Y. Aldarwish ; Husam, A. Neamah",
+      "venue": "LECTURE NOTES IN NETWORKS AND SYSTEMS 1560 pp. 218-236. , 19 p. (2025)",
+      "year": "2025",
+      "rankings": [
+        "Q4"
+      ],
+      "doi": "10.1007/978-3-032-00239-6_15",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:ldfaerwXgEUC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "co-author"
+    },
+    {
+      "id": "cv-16",
+      "title": "Recent Advances in Tactile Sensing Technologies for Human-Robot Interaction: Current Trends and Future Perspectives",
+      "authors": "Jassim, Hothefa Shaker ; Akhter, Yasmeena ; Aalwahab, Dhulfiqar  ; Neamah, Husam A.",
+      "venue": "BIOSENSORS AND BIOELECTRONICS: X 26 Paper: 100669 , 24 p. (2025)",
+      "year": "2025",
+      "rankings": [
+        "Q2"
+      ],
+      "doi": "10.1016/j.biosx.2025.100669",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:BqipwSGYUEgC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "corresponding author"
+    },
+    {
+      "id": "cv-17",
+      "title": "A Systematic Review of Emotion Recognition and Non-Verbal Communication in Human-Robot Interaction",
+      "authors": "Kovács, Karolina Eszter ; Őrsi, Balázs ; Csukonyi, Csilla ; Neamah, Husam A. ; Papp, Dávid ; Korondi, Péter",
+      "venue": "In: CogInfo (szerk.) 16th IEEE International Conference on Cognitive Infocommunications CogInfoCom 2025 Piscataway (NJ), Amerikai Egyesült Államok : IEEE (2025) 260 p. pp. 183-190. , 8 p.",
+      "year": "2025",
+      "rankings": [],
+      "doi": "10.1109/CogInfoCom66819.2025.11200706",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:2P1L_qKh6hAC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "co-author"
+    },
+    {
+      "id": "cv-18",
+      "title": "Mental workload detection and assessment through statistical features extraction and optimization using GEL-RF method for EEG signals using N-back dataset",
+      "authors": "Manzoor, Waleed ; Naseer, Noman ; Nizami, Imran Fareed ; Nazeer, Syed Hammad ; Neamah, Husam A.",
+      "venue": "IEEE ACCESS 13 pp. 140118-140138. , 21 p. (2025)",
+      "year": "2025",
+      "rankings": [
+        "Q1"
+      ],
+      "doi": "10.1109/ACCESS.2025.3596517",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:O3NaXMp0MMsC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "corresponding author"
+    },
+    {
+      "id": "cv-19",
+      "title": "Control of Collaborative Robot Using a Hybrid Impedance and Admittance Control to Build Kinesthetic Learning Industrial Robot",
+      "authors": "Mostafa, Gamal ; Mohammed, Aad Khudhair ; Hothefa, Shaker Jassim ; Husam, A. Neamah",
+      "venue": "STUDIES IN SYSTEMS DECISION AND CONTROL 590 pp. 967-978. , 12 p. (2025)",
+      "year": "2025",
+      "rankings": [
+        "Q4"
+      ],
+      "doi": "10.1007/978-3-031-88874-8_86",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:lSLTfruPkqcC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "co-author"
+    },
+    {
+      "id": "cv-20",
+      "title": "Deep Learning-Based Technique for Investigating the Behavior of MEMS Systems with Multiwalled Carbon Nanotubes and Electrically Actuated Microbeams",
+      "authors": "Muhammad, Amir ; Jamshaid, Ul Rahman ; Ali, Hasan Ali  ; Ali, Raza ; Zaid, Ameen Abduljabbar ; Husam, A. Neamah",
+      "venue": "METHODSX 14 pp. 1-14. Paper: 103337 , 19 p. (2025) DEA WoS Scopus",
+      "year": "2025",
+      "rankings": [
+        "Q1"
+      ],
+      "doi": "",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:maZDTaKrznsC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "co-author"
+    },
+    {
+      "id": "cv-21",
+      "title": "Decentralized Swarm Localization and Coordination Using Infrared, IMU, and Wi-Fi Fusion",
+      "authors": "Neamah, Husam A. ; Elkabat, Samer Shadi Saleh ; Khudhair, Mohammed A.",
+      "venue": "In: CogInfo (szerk.) 16th IEEE International Conference on Cognitive Infocommunications CogInfoCom 2025 Piscataway (NJ), Amerikai Egyesült Államok : IEEE (2025) 260 p. pp. 000191-000196. , 6 p.",
+      "year": "2025",
+      "rankings": [],
+      "doi": "10.1109/CogInfoCom66819.2025.11200701",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:70eg2SAEIzsC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "first author"
+    },
+    {
+      "id": "cv-22",
+      "title": "Development of an Advanced High-Speed Line-Following Robot for Enhancing Autonomous Robotics",
+      "authors": "Neamah, Husam A. ; Xiaodong, Lu",
+      "venue": "In: 2025 IEEE 12th International Conference on E-Learning in Industrial Electronics (ICELIE) Piscataway (NJ), Amerikai Egyesült Államok : IEEE (2025) pp. 1-6. , 6 p.",
+      "year": "2025",
+      "rankings": [],
+      "doi": "10.1109/ICELIE64733.2025.11244757",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:3s1wT3WcHBgC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "first author"
+    },
+    {
+      "id": "cv-23",
+      "title": "An optimized cubic B-spline algorithm for high-precision approximation of nonlinear transport phenomena",
+      "authors": "Rabia, Noureena ; Muhammad, Kashif Iqbal ; Maryam, Asgir ; Bandar, Almohsen ; Muhammad, Azeem ; Husam, A. Neamah",
+      "venue": "INTERNATIONAL JOURNAL OF THERMOFLUIDS 29 pp. 1-16. Paper: 101331 , 16 p. (2025)",
+      "year": "2025",
+      "rankings": [
+        "D1"
+      ],
+      "doi": "10.1016/j.ijft.2025.101331",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:YFjsv_pBGBYC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "corresponding author"
+    },
+    {
+      "id": "cv-24",
+      "title": "Local path planning based on Bi-population Swarms optimization algorithms",
+      "authors": "Shareef, Asmaa ; Al-darraji, Salah ; Al-Ansarry, Suhaib ; Abduljabbar, Zaid Ameen ; Nyangaresi, Vincent Omollo ; Ali, Ali Hasan ; Neamah, Husam A.",
+      "venue": "RESULTS IN CONTROL AND OPTIMIZATION 21 Paper: 100634 , 30 p. (2025)",
+      "year": "2025",
+      "rankings": [
+        "Q1"
+      ],
+      "doi": "10.1016/j.rico.2025.100634",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:ZHo1McVdvXMC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "corresponding author"
+    },
+    {
+      "id": "cv-25",
+      "title": "An Analytical Approach to Modeling Conjunctival Viral Disease using Fuzzy Logic and Time-Delay Dynamics",
+      "authors": "Tashfeen, Muhammad ; Jassim, Hothefa Shaker ; Dayan, Fazal ; Rehman, Muhammad Azizur ; Alwahab, Dhulfiqar Zoltán ; Neamah, Husam A.",
+      "venue": "HEALTHCARE ANALYTICS 8 Paper: 100404 , 30 p. (2025)",
+      "year": "2025",
+      "rankings": [
+        "D1"
+      ],
+      "doi": "10.1016/j.health.2025.100404",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:JV2RwH3_ST0C",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "corresponding author"
+    },
+    {
+      "id": "cv-26",
+      "title": "An Analytical Framework for Smoking Epidemic Modeling using Fuzzy Logic and Dual Time-Delay Dynamics",
+      "authors": "Tashfeen, Muhammad ; Jassim, Hothefa Shaker ; Rehman, Muhammad Aziz ur ; Dayan, Fazal ; Sadiq, Muhammad Adil ; Neamah, Husam A.",
+      "venue": "Computer Methods and Programs in Biomedicine Update 8 Paper: 100218 , 33 p. (2025)",
+      "year": "2025",
+      "rankings": [
+        "D1",
+        "Q1"
+      ],
+      "doi": "10.1016/j.cmpbup.2025.100218",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:NaGl4SEjCO4C",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "corresponding author"
+    },
+    {
+      "id": "scholar-9",
+      "title": "A robust and efficient authentication protocol for intelligent systems in smart healthcare IoMT",
+      "authors": "ZA Abduljabbar, VO Nyangaresi, MA Al Sibahee, J Ma, ZA Hussien, ...",
+      "venue": "2025 IEEE 24th International Conference on Trust, Security and Privacy in …",
+      "year": "2025",
+      "rankings": [],
+      "doi": "",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:dfsIfKJdRG4C",
+      "source": "Google Scholar · retrieved 10 September 2026",
+      "role": ""
+    },
+    {
+      "id": "scholar-16",
+      "title": "Control and Data Processing of Creep Test Machine in Compliance with ISO 9967",
+      "authors": "H Madbak, HA Neamah, HS Jassim, ZA Abduljabbar",
+      "venue": "AI and IoT: Driving Business Success and Sustainability in the Digital Age …",
+      "year": "2025",
+      "rankings": [],
+      "doi": "",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:vV6vV6tmYwMC",
+      "source": "Google Scholar · retrieved 10 September 2026",
+      "role": ""
+    },
+    {
+      "id": "scholar-18",
+      "title": "Security challenges and analysis tools in internet of health things: A comprehensive review",
+      "authors": "EW Abood, AA Yassin, ZA Abduljabbar, VO Nyangaresi, IQ Abduljaleel, ...",
+      "venue": "Computers, Materials & Continua 85 (2), 2305-2345",
+      "year": "2025",
+      "rankings": [],
+      "doi": "",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:ns9cj8rnVeAC",
+      "source": "Google Scholar · retrieved 10 September 2026",
+      "role": ""
+    },
+    {
+      "id": "scholar-21",
+      "title": "Effective SMOTE boost with deep learning for IDC identification in whole-slide images",
+      "authors": "MJ Jassim Ghrabat, AA Ghaib, A Al-Hossenat, ZA Abduljabbar, ...",
+      "venue": "PLoS One 20 (9), e0329078",
+      "year": "2025",
+      "rankings": [],
+      "doi": "",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:J_g5lzvAfSwC",
+      "source": "Google Scholar · retrieved 10 September 2026",
+      "role": ""
+    },
+    {
+      "id": "scholar-28",
+      "title": "Towards Secure IoT Authentication System Based on Fog Computing and Blockchain Technologies to Resist 51% and Hijacking Cyber-Attacks",
+      "authors": "M Jawad, AA Yassin, HAA AL-Asadi, ZA Abduljabbar, VO Nyangaresi, ...",
+      "venue": "Jordanian Journal of Computers and Information Technology (JJCIT) 11 (02)",
+      "year": "2025",
+      "rankings": [],
+      "doi": "",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:M3NEmzRMIkIC",
+      "source": "Google Scholar · retrieved 10 September 2026",
+      "role": ""
+    },
+    {
+      "id": "scholar-32",
+      "title": "A review: Searchable symmetric encryption functionalities, challenges and solutions",
+      "authors": "HM Mohammed, MH Hashim, DK Altmemi, ZA Abduljabbar, ZA Hussien, ...",
+      "venue": "Computer Science On-line Conference, 47-65",
+      "year": "2025",
+      "rankings": [],
+      "doi": "",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:M05iB0D1s5AC",
+      "source": "Google Scholar · retrieved 10 September 2026",
+      "role": ""
+    },
+    {
+      "id": "scholar-34",
+      "title": "The mixed partition dimension: A new resolvability parameter in graph theory",
+      "authors": "SNA Zamri, S Ali, M Azeem, HA Neamah, B Almohsen",
+      "venue": "IEEE Access 13, 60122-60130",
+      "year": "2025",
+      "rankings": [],
+      "doi": "",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:j3f4tGmQtD8C",
+      "source": "Google Scholar · retrieved 10 September 2026",
+      "role": ""
+    },
+    {
+      "id": "cv-27",
+      "title": "B-Splined Trajectory Modified Generation to Maximize Speed of the Nonholonomic AMR Robot",
+      "authors": "Husam, A. NEAMAH  ; Rawitch, BUTDEE",
+      "venue": "JOURNAL OF MACHINE ENGINEERING 24 : 4 pp. 27-40. , 14 p. (2024)",
+      "year": "2024",
+      "rankings": [
+        "Q2",
+        "Q3"
+      ],
+      "doi": "10.36897/jme/196037",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:e5wmG9Sq2KIC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "first & corresponding author"
+    },
+    {
+      "id": "cv-28",
+      "title": "Educational Approach to Trajectory Prediction for Dynamic Obstacle Avoidance Using Curve Fitting Methods",
+      "authors": "Husam, A. Neamah ; Donát, Elek ; Korondi, Peter",
+      "venue": "In: IEEE (szerk.) 2024 IEEE 11th International Conference on E-Learning in Industrial Electronics (ICELIE) Piscataway (NJ), Amerikai Egyesült Államok : Institute of Electrical and Electronics Engineers (IEEE) (2024) pp. 1-6. , 6 p.",
+      "year": "2024",
+      "rankings": [],
+      "doi": "10.1109/ICELIE62250.2024.10814853",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:4JMBOYKVnBMC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "first author"
+    },
+    {
+      "id": "cv-29",
+      "title": "Navigating Attention-Centric: A Machine Learning Approach to EMG-Based Hand Gesture Recognition for Interactive RC Car",
+      "authors": "Husam, A. Neamah ; Mohammed, A. Khudhair ; Magd, Saeed Dhaiban",
+      "venue": "In: IEEE (szerk.) 2024 IEEE 21st International Power Electronics and Motion Control Conference (PEMC) Piscataway (NJ), Amerikai Egyesült Államok : Institute of Electrical and Electronics Engineers (IEEE) (2024) pp. 1-6. , 6 p.",
+      "year": "2024",
+      "rankings": [],
+      "doi": "10.1109/PEMC61721.2024.10726353",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:-f6ydRqryjwC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "first author"
+    },
+    {
+      "id": "cv-30",
+      "title": "Optimized TD3 Algorithm for Robust Autonomous Navigation in Crowded and Dynamic Human-Interaction Environments",
+      "authors": "Husam, A. Neamah  ; Oscar, Agustin Mayorga Mayorga",
+      "venue": "RESULTS IN ENGINEERING 24 pp. 1-23. Paper: 102874 , 23 p. (2024)",
+      "year": "2024",
+      "rankings": [
+        "D1"
+      ],
+      "doi": "10.1016/j.rineng.2024.102874",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:7PzlFSSx8tAC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "first & corresponding author"
+    },
+    {
+      "id": "cv-31",
+      "title": "Obstacle Avoidance and Path Planning Methods for Autonomous Navigation of Mobile Robot",
+      "authors": "Katona, Kornél  ; Neamah, Husam A. ; Korondi, Péter",
+      "venue": "SENSORS 24 : 11 Paper: 3573 , 47 p. (2024)",
+      "year": "2024",
+      "rankings": [
+        "Q1",
+        "Q2"
+      ],
+      "doi": "10.3390/s24113573",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:YOwf2qJgpHMC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "co-author"
+    },
+    {
+      "id": "cv-32",
+      "title": "Technical limitations of Organic Human-Robot Interaction (O-HRI) for mobile robots moving amongst humans",
+      "authors": "Keczan, Laszlo ; Orsi, Balazs ; Katona, Kornel ; Mikuska, Robert ; Neamah, Husam A. ; Csukonyi, Csilla ; Korondi, Péter",
+      "venue": "In: IEEE (szerk.) 2024 IEEE 21st International Power Electronics and Motion Control Conference (PEMC) Piscataway (NJ), Amerikai Egyesült Államok : Institute of Electrical and Electronics Engineers (IEEE) (2024) pp. 1-6. , 6 p.",
+      "year": "2024",
+      "rankings": [],
+      "doi": "10.1109/PEMC61721.2024.10726327",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:hFOr9nPyWt4C",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "co-author"
+    },
+    {
+      "id": "cv-33",
+      "title": "Bifurcation, chaotic analysis and soliton solutions to the (3+1)-dimensional p-type model",
+      "authors": "Nadeem, Muhammad ; Arqub, Omar Abu ; Ali, Ali Hasan ; Neamah, Husam A.",
+      "venue": "ALEXANDRIA ENGINEERING JOURNAL 107 pp. 245-253. , 9 p. (2024)",
+      "year": "2024",
+      "rankings": [
+        "Q1"
+      ],
+      "doi": "10.1016/j.aej.2024.07.032",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:9ZlFYXVOiuMC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "co-author"
+    },
+    {
+      "id": "cv-34",
+      "title": "Bio-Inspired Microstructures for High-Performance and Self-Powered E-Skin Technologies",
+      "authors": "Neamah, Husam A. ; Al-Gburi, Mousa",
+      "venue": "CHEMICAL ENGINEERING JOURNAL ADVANCES 20 Paper: 100664 , 22 p. (2024)",
+      "year": "2024",
+      "rankings": [
+        "Q1"
+      ],
+      "doi": "10.1016/j.ceja.2024.100664",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:mB3voiENLucC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "first author"
+    },
+    {
+      "id": "cv-35",
+      "title": "Development of a Volkswagen Jetta MK5 Hybrid Vehicle for Optimized System Efficiency Based on a Genetic Algorithm",
+      "authors": "Neamah, Husam A.  ; Dulaimi, Mohammed ; Silavinia, Alaa ; Babangida, Aminu ; Szemes, Péter Tamás",
+      "venue": "ENERGIES 17 : 5 pp. 1-25. Paper: 1116 , 25 p. (2024)",
+      "year": "2024",
+      "rankings": [
+        "Q1",
+        "Q2"
+      ],
+      "doi": "10.3390/en17051116",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:3fE2CSJIrl8C",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "first & corresponding author"
+    },
+    {
+      "id": "cv-36",
+      "title": "Enhancing Autonomous Robot Perception for Precision Positioning and Localization",
+      "authors": "Neamah, Husam A. ; Ardi, Daniel Al ; Korondi, Peter",
+      "venue": "In: IEEE (szerk.) 2024 IEEE/SICE International Symposium on System Integration (SII) Piscataway (NJ), Amerikai Egyesült Államok : Institute of Electrical and Electronics Engineers (IEEE) (2024) pp. 1058-1063. , 6 p.",
+      "year": "2024",
+      "rankings": [],
+      "doi": "10.1109/SII58957.2024.10417351",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:8k81kl-MbHgC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "first author"
+    },
+    {
+      "id": "cv-37",
+      "title": "Multi-Agents Trajectory Prediction for Autonomous Vehicles with Multi-Modal Predictions",
+      "authors": "Neamah, Husam A. ; Alghazawi, Mohammad ; Korondi, Peter",
+      "venue": "In: IEEE (szerk.) 15th IEEE International Conference on Cognitive Infocommunications, CogInfoCom 2024 : Proceedings Piscataway (NJ), Amerikai Egyesült Államok : Institute of Electrical and Electronics Engineers (IEEE) (2024) 276 p. pp. 259-264. Paper: 10894711 , 6 p.",
+      "year": "2024",
+      "rankings": [],
+      "doi": "10.1109/CogInfoCom63007.2024.10894711",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:bEWYMUwI8FkC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "first author"
+    },
+    {
+      "id": "cv-38",
+      "title": "Optimization Modeling Parameters for Industrial AMR Slippage Using ANFIS System in Dynamic Environment",
+      "authors": "Neamah, Husam A. ; Butdee, Rawitch",
+      "venue": "LECTURE NOTES IN NETWORKS AND SYSTEMS 979 pp. 214-223. Paper: Chapter 18 , 10 p. (2024)",
+      "year": "2024",
+      "rankings": [
+        "Q4"
+      ],
+      "doi": "10.1007/978-3-031-59164-8_18",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:KlAtU1dfN6UC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "first author"
+    },
+    {
+      "id": "cv-39",
+      "title": "Optimizing autonomous navigation in unknown environments: A novel trap avoiding vector field histogram algorithm VFH+T",
+      "authors": "Neamah, Husam A.  ; Donát, Elek ; Korondi, Peter",
+      "venue": "RESULTS IN ENGINEERING 23 Paper: 102625 , 17 p. (2024)",
+      "year": "2024",
+      "rankings": [
+        "D1"
+      ],
+      "doi": "10.1016/j.rineng.2024.102625",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:dhFuZR0502QC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "first & corresponding author"
+    },
+    {
+      "id": "cv-40",
+      "title": "Towards the development of foods 3D printer: Trends and technologies for foods printing",
+      "authors": "Neamah, Husam A.  ; Tandio, Joseph",
+      "venue": "HELIYON 10 : 13 Paper: e33882 (2024)",
+      "year": "2024",
+      "rankings": [
+        "Q1"
+      ],
+      "doi": "10.1016/j.heliyon.2024.e33882",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:qxL8FJ1GzNcC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "first & corresponding author"
+    },
+    {
+      "id": "cv-41",
+      "title": "Smart city energy efficient data privacy preservation protocol based on biometrics and fuzzy commitment scheme",
+      "authors": "Nyangaresi, Vincent Omollo ; Abduljabbar, Zaid Ameen ; Mutlaq, Keyan Abdul-Aziz ; Bulbul, Salim Sabah ; Ma, Junchao ; Aldarwish, Abdulla J. Y. ; Honi, Dhafer G. ; Al Sibahee, Mustafa A. ; Neamah, Husam A.",
+      "venue": "SCIENTIFIC REPORTS 14 : 1 Paper: 16223 , 17 p. (2024)",
+      "year": "2024",
+      "rankings": [
+        "Q1"
+      ],
+      "doi": "10.1038/s41598-024-67064-z",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:mVmsd5A6BfQC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "co-author"
+    },
+    {
+      "id": "cv-42",
+      "title": "Optimization and Control in Rubella Transmission Dynamics: A Boundedness-Preserving Numerical Model with Vaccination",
+      "authors": "Salim, Samiullah ; Dayan, Fazal ; Rehman, Muhammad Azizur ; Husam, A. Neamah",
+      "venue": "INFORMATICS IN MEDICINE UNLOCKED 51 Paper: 101595 , 21 p. (2024)",
+      "year": "2024",
+      "rankings": [
+        "Q2"
+      ],
+      "doi": "10.1016/j.imu.2024.101595",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:qUcmZB5y_30C",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "corresponding author"
+    },
+    {
+      "id": "cv-43",
+      "title": "Bond Graph Benefits the Education in Mechatronics Engineering",
+      "authors": "Zenan, Guo ; Neamah, Husam A. ; Tamás Szemes, Péter",
+      "venue": "In: IEEE (szerk.) 2024 IEEE 21st International Power Electronics and Motion Control Conference (PEMC) Piscataway (NJ), Amerikai Egyesült Államok : Institute of Electrical and Electronics Engineers (IEEE) (2024) pp. 1-6. , 6 p.",
+      "year": "2024",
+      "rankings": [],
+      "doi": "10.1109/PEMC61721.2024.10726329",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:M3ejUd6NZC8C",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "co-author"
+    },
+    {
+      "id": "scholar-37",
+      "title": "Mathematical analysis with control of liver cirrhosis causing from HBV by taking early detection measures and chemotherapy treatment",
+      "authors": "A Ahmad, M Ali, AH Ali, MA El-Rahman, E Hincal, HA Neamah",
+      "venue": "Scientific Reports 14 (1), 28463",
+      "year": "2024",
+      "rankings": [],
+      "doi": "",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:TQgYirikUcIC",
+      "source": "Google Scholar · retrieved 10 September 2026",
+      "role": ""
+    },
+    {
+      "id": "scholar-40",
+      "title": "Smart Grid and Renewable Energy Security Challenges: A Review",
+      "authors": "ZA Ali, ZA Abduljabbar, HAA AL-Asadi, VO Nyangaresi, AJY Aldarwish, ...",
+      "venue": "Computer Science On-line Conference, 805-825",
+      "year": "2024",
+      "rankings": [],
+      "doi": "",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:hC7cP41nSMkC",
+      "source": "Google Scholar · retrieved 10 September 2026",
+      "role": ""
+    },
+    {
+      "id": "scholar-41",
+      "title": "Utilizing machine learning for the early detection of coronary heart disease",
+      "authors": "SH Mohialdin, LQ Abdulrahman, MH Al-Yoonus, ZA Abduljabbar, ...",
+      "venue": "Engineering, Technology & Applied Science Research 14 (5), 17363-17375",
+      "year": "2024",
+      "rankings": [],
+      "doi": "",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:IWHjjKOFINEC",
+      "source": "Google Scholar · retrieved 10 September 2026",
+      "role": ""
+    },
+    {
+      "id": "scholar-42",
+      "title": "A robust hybrid machine and deep learning-based model for classification and identification of chest X-ray images",
+      "authors": "RJ Mohammed, MJJ Ghrabat, ZA Abduljabbar, VO Nyangaresi, ...",
+      "venue": "Engineering, Technology & Applied Science Research 14 (5), 16212-16220",
+      "year": "2024",
+      "rankings": [],
+      "doi": "",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:ZeXyd9-uunAC",
+      "source": "Google Scholar · retrieved 10 September 2026",
+      "role": ""
+    },
+    {
+      "id": "scholar-58",
+      "title": "TDK Presentation on Assistive Robots Evaluation Framework",
+      "authors": "MA Arthur, H Almusawi",
+      "venue": "",
+      "year": "2024",
+      "rankings": [],
+      "doi": "",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:RHpTSmoSYBkC",
+      "source": "Google Scholar · retrieved 10 September 2026",
+      "role": ""
+    },
+    {
+      "id": "scholar-60",
+      "title": "Message verification protocol based on bilinear pairings and elliptic curves for enhanced security in vehicular ad hoc networks",
+      "authors": "VO Nyangaresi, AA Ghaib, HM Jasim, ZA Abduljabbar, J Ma, ...",
+      "venue": "",
+      "year": "2024",
+      "rankings": [],
+      "doi": "",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:L8Ckcad2t8MC",
+      "source": "Google Scholar · retrieved 10 September 2026",
+      "role": ""
+    },
+    {
+      "id": "cv-44",
+      "title": "Simulation of Delta Robot Kinematics With Permanent Magnet Synchronous Motor For Mechatronics Education",
+      "authors": "Tandio, Joseph Wicaksono ; Kamrás, Ádám ; Korsoveczki, Gyula ; Korondi, Péter ; Almusawi, Husam",
+      "venue": "In: IEEE (szerk.) 2023 IEEE 10th International Conference on E-Learning in Industrial Electronics (ICELIE) Piscataway (NJ), Amerikai Egyesült Államok : Institute of Electrical and Electronics Engineers (IEEE) (2023) pp. 1-6. , 6 p.",
+      "year": "2023",
+      "rankings": [],
+      "doi": "10.1109/ICELIE58531.2023.10313101",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:0EnyYjriUFMC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "co-author"
+    },
+    {
+      "id": "scholar-65",
+      "title": "A comparative review of omnidirectional wheel types for mobile robotics",
+      "authors": "H Akkad, H Almusawi",
+      "venue": "Rochester, NY",
+      "year": "2023",
+      "rankings": [],
+      "doi": "",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:roLk4NBRz8UC",
+      "source": "Google Scholar · retrieved 10 September 2026",
+      "role": ""
+    },
+    {
+      "id": "cv-45",
+      "title": "Cyber-Physical System Aspects of Microstrip Patch Antenna of Radar Sensor Application",
+      "authors": "Abdullah, Masuk ; Orosz, Miklós Kende ; Almusawi, Husam ; Istvan, Balajti",
+      "venue": "In: IEEE, Computer Society (szerk.) 23rd Proceedings International Radar Symposium Gdansk, Lengyelország : Warsaw University of Technology, IEEE Computer Society (2022) pp. 378-383. , 6 p.",
+      "year": "2022",
+      "rankings": [],
+      "doi": "10.23919/IRS54158.2022.9904974",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:ufrVoPGSRksC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "co-author"
+    },
+    {
+      "id": "cv-46",
+      "title": "Self-Driving robotic car utilizing image processing and machine learning",
+      "authors": "Husam, A Almusawi  ; Mohammed, Al-Jabali ; Amro, M Khaled ; Korondi, Péter ; Husi, Géza",
+      "venue": "IOP CONFERENCE SERIES: MATERIALS SCIENCE AND ENGINEERING 1256 pp. 1-13. Paper: 012024 , 13 p. (2022)",
+      "year": "2022",
+      "rankings": [],
+      "doi": "10.1088/1757-899X/1256/1/012024",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:W7OEmFMy1HYC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "first author"
+    },
+    {
+      "id": "cv-47",
+      "title": "IT development of a web-based laboratory system for mechatronical engineering students",
+      "authors": "Korsoveczki, Gyula ; Kovacs, Benjamin ; Tihanyi, Daniel ; Almusawi, Husam A. ; Korondi, Peter",
+      "venue": "In: IEEE (szerk.) 2022 IEEE 9th International Conference on e-Learning in Industrial Electronics (ICELIE) Piscataway (NJ), Amerikai Egyesült Államok : Institute of Electrical and Electronics Engineers (IEEE) (2022) pp. 1-6. , 6 p.",
+      "year": "2022",
+      "rankings": [],
+      "doi": "10.1109/ICELIE55228.2022.9969424",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:_FxGoFyzp5QC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "co-author"
+    },
+    {
+      "id": "cv-48",
+      "title": "Neural Network-based Finite-time Control of Nonlinear Systems with Unknown Dead-zones: Application to Quadrotors",
+      "authors": "Muhammad, Maaruf ; Aminu, Babangida ; Husam, A. Almusawi ; Peter, Szemes Tamas",
+      "venue": "Journal of Robotics and Control (JRC) 3 : 6 pp. 735-742. , 8 p. (2022)",
+      "year": "2022",
+      "rankings": [
+        "Q3"
+      ],
+      "doi": "10.18196/jrc.v3i6.15355",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:YsMSGLbcyi4C",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "co-author"
+    },
+    {
+      "id": "cv-49",
+      "title": "Design of an Individual Fingers Rehabilitation Device",
+      "authors": "Taleb, Mayar Abdullah ; Peter, Korondi ; Almusawi, Husam A.",
+      "venue": "In: IEEE (szerk.) 2022 IEEE 20th International Power Electronics and Motion Control Conference (PEMC) [s.l.], Nemzetközi : Institute of Electrical and Electronics Engineers (IEEE) (2022) pp. 734-739. , 6 p.",
+      "year": "2022",
+      "rankings": [],
+      "doi": "10.1109/PEMC51159.2022.9962909",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:eQOLeE2rZwMC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "co-author"
+    },
+    {
+      "id": "cv-50",
+      "title": "Design and Development of Continuous Passive Motion (CPM) for Fingers and Wrist Grounded-Exoskeleton Rehabilitation System",
+      "authors": "Almusawi, Husam  ; Husi, Géza",
+      "venue": "APPLIED SCIENCES-BASEL 11 : 2 Paper: 815 , 23 p. (2021)",
+      "year": "2021",
+      "rankings": [
+        "Q2"
+      ],
+      "doi": "10.3390/app11020815",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:UeHWp8X0CEIC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "first & corresponding author"
+    },
+    {
+      "id": "scholar-73",
+      "title": "Design and Development of a New Hand and Wrist Rehabilitation Robot-Assisted System; Equipped With Game-Based Therapy, ROM and Tip-Pinch Force Self-Assessment Approaches",
+      "authors": "HA Almusawi",
+      "venue": "PQDT-Global",
+      "year": "2021",
+      "rankings": [],
+      "doi": "",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:Y0pCki6q_DkC",
+      "source": "Google Scholar · retrieved 10 September 2026",
+      "role": ""
+    },
+    {
+      "id": "cv-51",
+      "title": "Computing The Kinematics Study of a 6 DOF Industrial Manipulator Prototype By Matlab",
+      "authors": "Saadah, Alaa ; Almusawi, Husam ; Géza, Husi",
+      "venue": "RECENT INNOVATIONS IN MECHATRONICS 7 : 1 pp. 1-5. , 5 p. (2020)",
+      "year": "2020",
+      "rankings": [],
+      "doi": "10.17667/riim.2020.1/8.",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:Se3iqnhoufwC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "co-author"
+    },
+    {
+      "id": "cv-52",
+      "title": "Designing the Mechanical Parts of a Low-Cost Hand Rehabilitation CPM Device for Stroke Patients",
+      "authors": "Almusawi, Husam ; Afghan, Syeda Adila ; Géza, Husi",
+      "venue": "LECTURE NOTES IN ELECTRICAL ENGINEERING 505 pp. 60-66. , 7 p. (2019)",
+      "year": "2019",
+      "rankings": [
+        "Q3"
+      ],
+      "doi": "10.1007/978-3-319-91334-6_9",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:d1gkVwhDpl0C",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "first author"
+    },
+    {
+      "id": "cv-53",
+      "title": "Simulating the Electrical Characteristics of Solar Panels Based on Practical Single-Diode Equivalent Circuit Model: Analyzing the Influence of Environmental Parameters on Output Power",
+      "authors": "Syeda, Adila Afghan ; Husam, Almusawi ; Husi, Géza",
+      "venue": "LECTURE NOTES IN ELECTRICAL ENGINEERING 505 pp. 67-74. , 8 p. (2019)",
+      "year": "2019",
+      "rankings": [
+        "Q3"
+      ],
+      "doi": "10.1007/978-3-319-91334-6_10",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:u5HHmVD_uO8C",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "co-author"
+    },
+    {
+      "id": "cv-54",
+      "title": "Towards the self-powered Internet of Things (IoT) by energy harvesting: Trends and technologies for green IoT",
+      "authors": "Afghan, Syeda Adila ; Almusawi, Husam ; Géza, Husi",
+      "venue": "In: IEEE (szerk.) 2018 2ND INTERNATIONAL SYMPOSIUM ON SMALL-SCALE INTELLIGENT MANUFACTURING SYSTEMS (SIMS) Piscataway (NJ), Amerikai Egyesült Államok : Institute of Electrical and Electronics Engineers (IEEE) (2018) pp. 1-6. , 6 p.",
+      "year": "2018",
+      "rankings": [],
+      "doi": "10.1109/SIMS.2018.8355305",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:9yKSN-GCB0IC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "co-author"
+    },
+    {
+      "id": "cv-55",
+      "title": "Recent trends in robotic systems for upper-limb stroke recovery: A low-cost hand and wrist rehabilitation device",
+      "authors": "Almusawi, Husam AbdulKareem ; Afghan, Syeda Adila ; Géza, Husi",
+      "venue": "In: IEEE (szerk.) 2018 2ND INTERNATIONAL SYMPOSIUM ON SMALL-SCALE INTELLIGENT MANUFACTURING SYSTEMS (SIMS) Piscataway (NJ), Amerikai Egyesült Államok : Institute of Electrical and Electronics Engineers (IEEE) (2018) pp. 1-6. , 6 p.",
+      "year": "2018",
+      "rankings": [],
+      "doi": "10.1109/SIMS.2018.8355302",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:zYLM7Y9cAGgC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "first author"
+    },
+    {
+      "id": "cv-56",
+      "title": "Approximating the minimum output power for energy harvesting prototype: a case study of cell phone specifications = Minimális kimeneti teljesítmény meghatározása energy harvesting prototípushoz: egy esettanulmány mobiltelefon specifikációkra",
+      "authors": "Afghan, Syeda Adila ; Almusawi, Husam ; Husi, Géza",
+      "venue": "In: Bitay, Enikő; Máté, Márton (szerk.) A XXII. Fiatal Műszakiak Tudományos Ülésszaka előadásai Kolozsvár, Románia : Erdélyi Múzeum Egyesület (EME), Óbudai Egyetem (2017) 418 p. pp. 55-58. , 4 p.",
+      "year": "2017",
+      "rankings": [],
+      "doi": "",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:2osOgNQ5qMEC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "co-author"
+    },
+    {
+      "id": "cv-57",
+      "title": "Reviewing the notable progress of effective techniques in the development of stroke hand rehabilitation devices = A stroke-t kapott egyének rehabilitációs eszközeiben jelentős fejlődést mutató hatékony technikák áttekintése",
+      "authors": "Almusawi, Husam ; Afghan, Syeda Adila ; Husi, Géza ; Molnár, Zsolt ; Erdei, Timotei István",
+      "venue": "In: Bitay, Enikő; Máté, Márton (szerk.) A XXII. Fiatal Műszakiak Tudományos Ülésszaka előadásai Kolozsvár, Románia : Erdélyi Múzeum Egyesület (EME), Óbudai Egyetem (2017) 418 p. pp. 63-66. , 4 p.",
+      "year": "2017",
+      "rankings": [],
+      "doi": "",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:qjMakFHDy7sC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "first author"
+    },
+    {
+      "id": "cv-58",
+      "title": "Saját CNC prototípus rendszer mint IoT eszköz = Our Own CNC Prototype System as IoT Device",
+      "authors": "Molnár, Zsolt ; Erdei, Timotei István ; Almusawi, Husam ; Husi, Géza",
+      "venue": "In: Bitay, Enikő; Máté, Márton (szerk.) A XXII. Fiatal Műszakiak Tudományos Ülésszaka előadásai Kolozsvár, Románia : Erdélyi Múzeum Egyesület (EME), Óbudai Egyetem (2017) 418 p. pp. 295-298. , 4 p.",
+      "year": "2017",
+      "rankings": [],
+      "doi": "",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:IjCSPb-OGe4C",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "co-author"
+    },
+    {
+      "id": "cv-59",
+      "title": "Simulating the electrical characteristics of a photovoltaic cell based on a single-diode equivalent circuit model",
+      "authors": "Syeda, Adila Afghan ; Husam, Almusawi ; Husi, Geza",
+      "venue": "ANALELE UNIVERSITATII DIN ORADEA FASCIOLA MANAGEMENT SI INGINERIE TEHNOLOGICA / ANNALS OF THE UNIVERSITY OF ORADEA FASCICLE OF MANAGEMENT AND TECHNOLOGICAL ENGINEERING 16 (26) : 1 pp. 91-96. , 6 p. (2017)",
+      "year": "2017",
+      "rankings": [],
+      "doi": "",
+      "scholar": "https://scholar.google.com/scholar?q=Simulating%20the%20electrical%20characteristics%20of%20a%20photovoltaic%20cell%20based%20on%20a%20single-diode%20equivalent%20circuit%20model%20ANALELE%20UNIVERSITATII%20DIN%20ORADEA%20FASCIOLA%20MANAGEMENT%20SI%20INGINERIE%20TEHNOLOGICA%20/%20ANNALS%20OF%20THE%20UNIVERSITY%20OF%20ORADEA%20FASCICLE%20OF%20MANAGEMENT%20AND%20TECHNOLOGICAL%20ENGINEERING%2016%20",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "co-author"
+    },
+    {
+      "id": "cv-60",
+      "title": "Simulating the electrical characteristics of a photovoltaic cell based on a single-diode equivalent circuit model",
+      "authors": "Syeda, Adila Afghan ; Husam, Almusawi ; Husi, Geza",
+      "venue": "MATEC WEB OF CONFERENCES 126 Paper: 03002 , 6 p. (2017)",
+      "year": "2017",
+      "rankings": [],
+      "doi": "10.1051/matecconf/201712603002",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:u-x6o8ySG0sC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "co-author"
+    },
+    {
+      "id": "cv-61",
+      "title": "Simulating the Eletrical Characteristics of a Photovoltaic Cell Based on a Single-Diode Equivalent Cicuit Model",
+      "authors": "Syeda, Adila Afghan ; Husam, Almusawi ; Géza, Husi",
+      "venue": "In: Calin, Baban; Florin, Sandu Blaga; Gavril, Grebenisan; Alexandru-Viorel, Pele; Mircea, Teodor Pop; Alexandru, Rus; Radu, Catalin Tarca (szerk.) \"Imt Oradea\" - 2017 : Proceedings of the Annual Seesion of Scientific Papers Oradea, Románia : Oradea University Press (2017) 214 p. pp. 181-186. , 6 p.",
+      "year": "2017",
+      "rankings": [],
+      "doi": "",
+      "scholar": "https://scholar.google.com/scholar?q=Simulating%20the%20Eletrical%20Characteristics%20of%20a%20Photovoltaic%20Cell%20Based%20on%20a%20Single-Diode%20Equivalent%20Cicuit%20Model%20In%3A%20Calin%2C%20Baban%3B%20Florin%2C%20Sandu%20Blaga%3B%20Gavril%2C%20Grebenisan%3B%20Alexandru-Viorel%2C%20Pele%3B%20Mircea%2C%20Teodor%20Pop%3B%20Alexandru%2C%20Rus%3B%20Radu%2C%20Catalin%20Tarca%20",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "co-author"
+    },
+    {
+      "id": "cv-62",
+      "title": "Technological Advancements in Stroke Hand Rehabilitation Devices: A Review",
+      "authors": "Almusawi, Husam ; Adila Afghan, Syeda ; Husi, Géza",
+      "venue": "In: Dineva, Adrienn; Nagy, István (szerk.) Proceedings of 4th INTERNATIONAL MECHATRONICAL STUDENT micro- CONFERENCE Budapest, Magyarország : Óbudai Egyetem (2016) 96 p. pp. 80-90. , 11 p.",
+      "year": "2016",
+      "rankings": [],
+      "doi": "",
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0P-ixAEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0P-ixAEAAAAJ:LkGwnXOMwfcC",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "first author"
+    },
+    {
+      "id": "cv-63",
+      "title": "Estimation of minimum output power threshold for energy harvesting module: An inspection of battery and charging parameters of cell phones",
+      "authors": "Syeda, Adila Afghan ; Husam, Almusawi ; Sana, Hoor Jokhio ; Géza, Husi",
+      "venue": "In: Dineva, Adrienn; Nagy, István (szerk.) Proceedings of 4th INTERNATIONAL MECHATRONICAL STUDENT micro- CONFERENCE Budapest, Magyarország : Óbudai Egyetem (2016) 96 p. pp. 56-71. , 16 p.",
+      "year": "2016",
+      "rankings": [],
+      "doi": "",
+      "scholar": "https://scholar.google.com/scholar?q=Estimation%20of%20minimum%20output%20power%20threshold%20for%20energy%20harvesting%20module%3A%20An%20inspection%20of%20battery%20and%20charging%20parameters%20of%20cell%20phones",
+      "source": "CV · MTMT export, 27 August 2026",
+      "role": "co-author"
+    }
+  ],
+  "facilityGallery": [
+    {
+      "id": "electronics",
+      "title": "Electronics & embedded development",
+      "image": "/media/lab-electronics.webp",
+      "description": "Workbenches for circuitry, robotic assembly, measurement, and control."
+    },
+    {
+      "id": "prototyping",
+      "title": "Mechanical prototyping & 3D printing",
+      "image": "/media/lab-prototyping.webp",
+      "description": "Prusa printing and mechanical design alongside experimental robotic devices."
+    },
+    {
+      "id": "workspace",
+      "title": "A shared research workspace",
+      "image": "/media/lab-workspace.webp",
+      "description": "Students working with assistive prototypes, computers, and motion capture cameras."
+    },
+    {
+      "id": "soldering",
+      "title": "Building at component level",
+      "image": "/media/lab-soldering.webp",
+      "description": "Hands-on electronics development at the lab’s soldering and measurement stations."
+    }
+  ],
+  "devices": [
+    {
+      "id": "service",
+      "title": "Enjoy Robotics service robot",
+      "category": "Mobile robots",
+      "image": "/media/service-robot.webp",
+      "description": "An indoor service platform for delivery, interaction, and navigation experiments.",
+      "features": [
+        "Indoor delivery",
+        "Human–robot interaction",
+        "Static and dynamic obstacle trials"
+      ],
+      "project": "service-robot"
+    },
+    {
+      "id": "robotino",
+      "title": "Festo Robotino",
+      "category": "Mobile robots",
+      "image": "/media/robotino.webp",
+      "description": "A mobile robotics platform for studying navigation, perception, and collision avoidance.",
+      "features": [
+        "Mobile robot control",
+        "Path planning",
+        "Sensor integration"
+      ],
+      "project": "robotino"
+    },
+    {
+      "id": "ackermann",
+      "title": "Ackermann research vehicle",
+      "category": "Mobile robots",
+      "image": "/media/ackermann.webp",
+      "description": "An RC-scale vehicle for embedded autonomy and sensor-fusion experiments.",
+      "features": [
+        "RGB-D perception",
+        "Embedded computing",
+        "Autonomous navigation"
+      ],
+      "project": "ackermann"
+    },
+    {
+      "id": "swarm",
+      "title": "Swarm robot platforms",
+      "category": "Mobile robots",
+      "image": "/media/swarm.webp",
+      "description": "Small robots support decentralized coordination and cooperative localization studies.",
+      "features": [
+        "Leader–follower systems",
+        "Distributed control",
+        "Multi-robot experiments"
+      ],
+      "project": "swarm-localization"
+    },
+    {
+      "id": "prosthetic",
+      "title": "Modular prosthetic hand & wrist",
+      "category": "Assistive & rehabilitation",
+      "image": "/media/bionic-hand.webp",
+      "description": "Modular mechanical assemblies for research in grasping and intuitive control.",
+      "features": [
+        "Finger linkages",
+        "EMG control research",
+        "Tactile force sensing"
+      ],
+      "project": "bionic-hand"
+    },
+    {
+      "id": "rehabilitation",
+      "title": "Finger & wrist rehabilitation robotics",
+      "category": "Assistive & rehabilitation",
+      "image": "/media/prosthesis-linkage-cad-poster.webp",
+      "description": "Research into continuous passive motion, grounded exoskeletons, and biosignal interfaces for hand rehabilitation. Image: CAD view of a related prosthetic mechanism.",
+      "features": [
+        "Finger and wrist motion",
+        "Mechanical modelling",
+        "EEG / ERP interfaces"
+      ],
+      "project": "rehabilitation"
+    },
+    {
+      "id": "eeg",
+      "title": "EEG & EMG research systems",
+      "category": "Sensing & fabrication",
+      "image": "/media/motor-imagery-setup.webp",
+      "description": "Brain and muscle signal acquisition for human–robot interfaces and movement research.",
+      "features": [
+        "Motor imagery",
+        "Signal processing",
+        "Muscle activation"
+      ],
+      "project": "bci"
+    },
+    {
+      "id": "mocap",
+      "title": "OptiTrack motion capture",
+      "category": "Sensing & fabrication",
+      "image": "/media/motion-capture-poster.webp",
+      "description": "A camera-based tracking system for reference measurements of robotic and human movement.",
+      "features": [
+        "OptiTrack Prime 22 cameras",
+        "Reflective-marker tracking",
+        "Trajectory recording & analysis"
+      ],
+      "project": "intelligent-space"
+    },
+    {
+      "id": "drone",
+      "title": "Aerial manipulation platform",
+      "category": "Aerial robotics",
+      "image": "/media/drone.webp",
+      "description": "An experimental multirotor combines aerial mobility with manipulation hardware.",
+      "features": [
+        "Flight dynamics",
+        "Manipulation mechanisms",
+        "Simulation"
+      ],
+      "project": "drone"
+    },
+    {
+      "id": "printer",
+      "title": "Prusa 3D printing & electronics",
+      "category": "Sensing & fabrication",
+      "image": "/media/lab-prototyping.webp",
+      "description": "Shared fabrication and electronics facilities for building and adapting research prototypes.",
+      "features": [
+        "3D printed structures",
+        "Mechanical iteration",
+        "Electronics integration"
+      ],
+      "project": ""
+    }
+  ],
+  "students": [
+    {
+      "id": "competition",
+      "title": "Build. Test. Compete.",
+      "tag": "Robotics competitions",
+      "image": "/media/student-sumo.webp",
+      "description": "Students turn sensing, control, and mechanical design into working robots for line-following, maze-solving, and sumo challenges. Testing on real tracks develops practical judgement as well as programming skills.",
+      "gallery": [
+        "/media/student-sumo.webp",
+        "/media/championship-team.webp",
+        "/media/competition.webp"
+      ],
+      "movies": [
+        "line-test",
+        "line-circuit",
+        "competition-run",
+        "line-junctions",
+        "competition-trial-a",
+        "competition-trial-b",
+        "maze-simulation"
+      ]
+    },
+    {
+      "id": "neurospark",
+      "title": "NeuroSpark: 24 hours of neurotechnology",
+      "tag": "Hackathon · Elche, Spain",
+      "image": "/media/neurospark-group.webp",
+      "description": "Jhon Nicolas Peña Martinez represented A²R at the NeuroSpark 24-hour hackathon in Elche, Spain. The event offered hands-on experience in brain–computer interfaces and EEG-based control through international teamwork.",
+      "gallery": [
+        "/media/neurospark-group.webp",
+        "/media/neurospark-work.webp",
+        "/media/neurospark-bci.webp"
+      ],
+      "movies": []
+    },
+    {
+      "id": "student-research",
+      "title": "A path from thesis to research",
+      "tag": "BSc · MSc · TalentUD · TDK/OTDK",
+      "image": "/media/student-prototypes.webp",
+      "description": "Students contribute to active research in perception, navigation, prosthetics, and biosignals. Their work spans concept development, mechanical and electronic integration, software, and evaluation, supported by researchers across the lab.",
+      "gallery": [
+        "/media/student-prototypes.webp",
+        "/media/lab-electronics.webp"
+      ],
+      "movies": [
+        "lab-demo",
+        "reseala"
+      ]
+    },
+    {
+      "id": "outreach",
+      "title": "Opening robotics to everyone",
+      "tag": "Researchers’ Night & outreach",
+      "image": "/media/outreach-0.webp",
+      "description": "Visitors meet mobile robots, explore 3D printing, try research demonstrations, and learn how sensing connects people and machines. The lab’s outreach sessions make robotics approachable through direct experience.",
+      "gallery": [
+        "/media/outreach-0.webp",
+        "/media/outreach-1.webp",
+        "/media/outreach-2.webp",
+        "/media/outreach-3.webp"
+      ],
+      "movies": []
+    }
+  ],
+  "guidelines": [
+    {
+      "id": "conduct",
+      "title": "Code of conduct",
+      "summary": "Respect colleagues, share resources fairly, protect confidential work, and meet agreed responsibilities.",
+      "image": "/media/guide-conduct.webp",
+      "points": [
+        "Treat everyone with respect and kindness.",
+        "Ask before borrowing tools or arranging visitors.",
+        "Keep workspaces organized and communicate about deadlines."
+      ]
+    },
+    {
+      "id": "general",
+      "title": "General lab safety",
+      "summary": "Prepare the workspace and understand equipment before beginning an experiment.",
+      "image": "/media/guide-general.webp",
+      "points": [
+        "Tie back long hair and keep food and drink outside.",
+        "Keep emergency stops accessible.",
+        "Disconnect power before maintenance and report hazards immediately."
+      ]
+    },
+    {
+      "id": "soldering",
+      "title": "Soldering station",
+      "summary": "Use the soldering station only with the lab instructor’s authorization and training.",
+      "image": "/media/guide-soldering.webp",
+      "points": [
+        "Inspect equipment and use the correct PPE.",
+        "Use ventilation and fume extraction; keep the iron in its stand.",
+        "Switch off, allow cooling, and clean up after work."
+      ]
+    },
+    {
+      "id": "tools",
+      "title": "Tools & shared equipment",
+      "summary": "Request components through the lab system and return shared resources in good condition.",
+      "image": "/media/guide-tools.webp",
+      "points": [
+        "Only authorized staff issue tools and devices.",
+        "Keep equipment in the lab unless explicitly authorized otherwise.",
+        "Tag damaged equipment and report it; do not attempt unauthorized repairs."
+      ]
+    },
+    {
+      "id": "data",
+      "title": "Data & cybersecurity",
+      "summary": "Protect research data, software, and results through the lab’s approved workflows.",
+      "image": "/media/guide-data.webp",
+      "points": [
+        "Use the official repository and approved storage.",
+        "Lock workstations, back up work, and document progress.",
+        "Obtain permission before sharing research or connecting external storage."
+      ]
+    },
+    {
+      "id": "printing",
+      "title": "Prusa 3D printing",
+      "summary": "Log the print, prepare the model, and follow the approved printer settings and supervision rules.",
+      "image": "/media/guide-printing.webp",
+      "points": [
+        "Check the bed, nozzle, material, and sliced file.",
+        "Monitor the first layer and follow the lab’s supervision requirements.",
+        "Remove the print safely, clean the area, and report faults."
+      ]
+    },
+    {
+      "id": "battery",
+      "title": "Battery charging",
+      "summary": "Use approved batteries and chargers, inspect them before use, and supervise charging under the lab’s procedures.",
+      "image": "",
+      "points": [
+        "Never charge damaged, swollen, leaking, or unknown batteries.",
+        "Keep charging areas clear and follow the manufacturer’s instructions.",
+        "Report abnormal heat, smoke, or damage immediately and follow the institutional emergency plan."
+      ]
+    }
+  ],
+  "grants": [
+    {
+      "id": "postdoctoral",
+      "title": "Postdoctoral Fellowship",
+      "funder": "Rector’s Office · University of Debrecen",
+      "status": "Award listed in the PI’s CV",
+      "lead": "Husam A. Neamah Almusawi",
+      "amount": "",
+      "summary": "Supports the PI’s research, teaching, and talent-development activity.",
+      "source": ""
+    },
+    {
+      "id": "impact",
+      "title": "UD-IMPACT Proof of Concept",
+      "funder": "University of Debrecen · Technology Transfer Office",
+      "status": "Grant listed in the PI’s CV",
+      "lead": "Husam A. Neamah Almusawi",
+      "amount": "",
+      "summary": "Proof-of-concept support connecting research ideas with the development of practical technology.",
+      "source": ""
+    },
+    {
+      "id": "publication-support",
+      "title": "Publication Science Support",
+      "funder": "University of Debrecen",
+      "status": "Grant listed in the PI’s CV",
+      "lead": "Husam A. Neamah Almusawi",
+      "amount": "",
+      "summary": "Support for scientific publication activity.",
+      "source": ""
+    },
+    {
+      "id": "nkkp",
+      "title": "Cognitive AI & robotics for elite sport",
+      "funder": "National Research Excellence Program · NKKP STARTING",
+      "status": "Award announced November 2025",
+      "lead": "Karolina Eszter Kovács",
+      "amount": "119 million HUF",
+      "summary": "A collaborating research initiative exploring cognitive AI agents and robotic systems for athlete training, motivation, and performance.",
+      "source": "https://www.linkedin.com/feed/update/urn:li:activity:7399419358533316609/"
+    },
+    {
+      "id": "otka",
+      "title": "OTKA research participation & proposals",
+      "funder": "OTKA",
+      "status": "Research participation & proposal development",
+      "lead": "Husam A. Neamah Almusawi",
+      "amount": "",
+      "summary": "The CV records participation in OTKA projects and a proposal reaching the second evaluation round. The proposal is not presented as an awarded grant.",
+      "source": ""
+    }
+  ],
+  "visits": [
+    {
+      "id": "industrial-day",
+      "title": "International delegates at Industrial Day",
+      "location": "Debrecen, Hungary",
+      "date": "March 2026",
+      "image": "/media/international-delegates.webp",
+      "summary": "The lab welcomed international delegates to exchange ideas on autonomous and assistive systems. The announcement acknowledges Mihoko Niitsuma, Andre Batako, Judit T. Kiss, Sándor Hajdu, and Katarzyna Antosz.",
+      "source": "https://www.linkedin.com/feed/update/urn:li:activity:7444780078145634304/"
+    },
+    {
+      "id": "neurospark",
+      "title": "Neurotechnology exchange at NeuroSpark",
+      "location": "Elche, Spain",
+      "date": "November 2025",
+      "image": "/media/neurospark-group.webp",
+      "summary": "Nicolas Peña joined the 24-hour NeuroSpark hackathon, collaborating on brain–computer interfaces and EEG-based control.",
+      "source": "https://www.linkedin.com/feed/update/urn:li:activity:7392980683100422144/"
+    },
+    {
+      "id": "visiting-professor",
+      "title": "AI for robotics teaching & collaboration",
+      "location": "Bonn-Rhein-Sieg, Germany",
+      "date": "Since 2025",
+      "image": "/media/husam-pi.webp",
+      "summary": "Husam’s visiting professorship combines MSc teaching in artificial intelligence for robotics with collaboration on autonomous mobile systems and navigation.",
+      "source": ""
+    },
+    {
+      "id": "visitors",
+      "title": "Research conversations in the lab",
+      "location": "Debrecen, Hungary",
+      "date": "Lab visitor gallery",
+      "image": "/media/international-visitors.webp",
+      "summary": "Visiting researchers meet the A²R team and explore shared interests through discussions around the lab’s experimental platforms.",
+      "source": ""
+    }
+  ],
+  "activityNews": [
+    {
+      "id": "researchers-night-2026",
+      "title": "Researchers’ Night 2026: discover the world of robots",
+      "category": "Outreach",
+      "date": "2026-09-25",
+      "dateLabel": "25 September 2026 · Upcoming event",
+      "image": "/media/researchers-night-2026.webp",
+      "summary": "Join A²R at the University of Debrecen, Faculty of Engineering, for interactive demonstrations of robotics, AI, and mobile robots. The lab’s event poster welcomes visitors of all ages.",
+      "source": "",
+      "facebook": "",
+      "gallery": [
+        "/media/researchers-night-2026.webp"
+      ],
+      "imageAlt": "Researchers’ Night 2026: discover the world of robots",
+      "imageCaption": ""
+    },
+    {
+      "id": "news-7469832846451552256",
+      "title": "Responsible intelligence at ICRA 2026",
+      "category": "International",
+      "date": "2026-06-08",
+      "dateLabel": "Posted 2026-06-08",
+      "image": "/media/husam-pi.webp",
+      "summary": "Husam shared reflections from ICRA 2026 on embodied AI, responsibility, and robots operating among people.",
+      "source": "https://www.linkedin.com/feed/update/urn:li:activity:7469832846451552256/",
+      "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid0rCqe9UdAfHHMUqtYc3CWFrCSCCnB9byDzKfxqXrdLQ1wxbTLNNMSNMskHTExqJZBl&id=61573079700902",
+      "gallery": [],
+      "imageAlt": "Portrait of Dr. Husam A. Neamah",
+      "imageCaption": "Portrait of Dr. Husam A. Neamah"
+    },
+    {
+      "id": "news-7461807515278880768",
+      "title": "EMG & IMU measurements in tennis",
+      "category": "Research",
+      "date": "2026-05-17",
+      "dateLabel": "Posted 2026-05-17",
+      "image": "/media/lab-workspace.webp",
+      "summary": "A²R introduced a study of muscle fatigue during tennis using muscle and motion signals. Contact the team for the current study status.",
+      "source": "https://www.linkedin.com/feed/update/urn:li:activity:7461807515278880768/",
+      "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid0fZh9vCckSjBVPGEvsS7tSWrzPmrLYSnK3ApvS8EsPZkBz8Zi683rCQC6uvi4Z795l&id=61573079700902",
+      "gallery": [],
+      "imageAlt": "A²R laboratory workspace; contextual lab photograph",
+      "imageCaption": "A²R laboratory workspace; contextual lab photograph"
+    },
+    {
+      "id": "news-7452980243411136513",
+      "title": "Modern robotics: perception, Edge AI & learning",
+      "category": "Seminars",
+      "date": "2026-04-23",
+      "dateLabel": "Posted 2026-04-23",
+      "image": "/media/research-seminar.webp",
+      "summary": "Dahnial Syauqy presented robot perception, embedded AI, reinforcement learning, simulation, and emerging foundation models.",
+      "source": "https://www.linkedin.com/feed/update/urn:li:activity:7452980243411136513/",
+      "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid02NiG6usCaGTf5xerivivc77pbz5y5Y1tXcPQZv3fbqu9o9Bc6e2yuFNKZsAKvXTP3l&id=61573079700902",
+      "gallery": [],
+      "imageAlt": "Modern robotics: perception, Edge AI & learning",
+      "imageCaption": ""
+    },
+    {
+      "id": "news-7444780078145634304",
+      "title": "International exchange at Industrial Day",
+      "category": "International",
+      "date": "2026-03-31",
+      "dateLabel": "Posted 2026-03-31",
+      "image": "/media/international-delegates.webp",
+      "summary": "Visiting delegates joined discussions on intelligent robotics and opportunities for interdisciplinary collaboration.",
+      "source": "https://www.linkedin.com/feed/update/urn:li:activity:7444780078145634304/",
+      "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid0T4koRf3g5z8NSt9NXPodv9haxeqZTqaPoQUoyvL2MKbT8xF3DwCo5EiimLkFbqhyl&id=61573079700902",
+      "gallery": [],
+      "imageAlt": "International exchange at Industrial Day",
+      "imageCaption": ""
+    },
+    {
+      "id": "autonomous-machines-workshop",
+      "title": "Autonomous machines: a university research exchange",
+      "category": "University news",
+      "dateLabel": "Shared 22 January 2026",
+      "image": "/media/lab-profile-poster.webp",
+      "imageAlt": "A mobile robot trial in the A²R lab; contextual film still",
+      "imageCaption": "A²R lab film still · related research environment",
+      "summary": "The lab shared the Faculty of Engineering’s report on an Autonomous Machines working-group workshop. The university update highlights research discussions around humanoid robots, autonomous vehicles, and drones, connecting complementary areas of robotics.",
+      "source": "https://www.facebook.com/demuszakikar/posts/pfbid0NLRKpZ9p2MY4K5Eb6qF6RkAuSD86RHhBAheN6GKRrvdL67AuU6eG1CUmzgXpzDHJl",
+      "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid0raTnWNRSdyEf6aCLFZfKMwEJH5R7pKFnVXhcrffGD2ATgMhHBbDzqapttPc6PuUCl&id=61573079700902",
+      "date": "2026-01-22",
+      "gallery": []
+    },
+    {
+      "id": "news-7408428764193546240",
+      "title": "One leader, many low-cost followers",
+      "category": "Research",
+      "date": "2025-12-21",
+      "dateLabel": "Posted 2025-12-21",
+      "image": "/media/swarm-localization-poster.webp",
+      "summary": "The lab shared its proof of concept for leader-assisted swarm localization, combining a LiDAR robot with simpler follower platforms.",
+      "source": "https://www.linkedin.com/feed/update/urn:li:activity:7408428764193546240/",
+      "facebook": "",
+      "gallery": [],
+      "imageAlt": "One leader, many low-cost followers",
+      "imageCaption": ""
+    },
+    {
+      "id": "news-7400890986802974720",
+      "title": "Celebrating final-year research",
+      "category": "Students",
+      "date": "2025-11-30",
+      "dateLabel": "Posted 2025-11-30",
+      "image": "/media/student-prototypes.webp",
+      "summary": "A²R celebrated students completing projects in robotics, human–robot interaction, and intelligent systems.",
+      "source": "https://www.linkedin.com/feed/update/urn:li:activity:7400890986802974720/",
+      "facebook": "",
+      "gallery": [],
+      "imageAlt": "Student prototyping activity in the A²R lab; contextual photograph",
+      "imageCaption": "Student prototyping activity in the A²R lab; contextual photograph"
+    },
+    {
+      "id": "news-7399419358533316609",
+      "title": "NKKP STARTING award for sports technology",
+      "category": "Grants",
+      "date": "2025-11-26",
+      "dateLabel": "Posted 2025-11-26",
+      "image": "/media/lab-workspace.webp",
+      "summary": "Karolina Eszter Kovács received a 119 million HUF STARTING grant for research involving cognitive AI and robotic support for elite athletes.",
+      "source": "https://www.linkedin.com/feed/update/urn:li:activity:7399419358533316609/",
+      "facebook": "",
+      "gallery": [],
+      "imageAlt": "A²R laboratory workspace; contextual lab photograph",
+      "imageCaption": "A²R laboratory workspace; contextual lab photograph"
+    },
+    {
+      "id": "news-7394985497850265601",
+      "title": "David Bello’s autonomous delivery robot",
+      "category": "Students",
+      "date": "2025-11-14",
+      "dateLabel": "Posted 2025-11-14",
+      "image": "/media/delivery.webp",
+      "summary": "The BSc project brought together SLAM, encoder-based state estimation, and obstacle-avoidance logic on a Raspberry Pi platform.",
+      "source": "https://www.linkedin.com/feed/update/urn:li:activity:7394985497850265601/",
+      "facebook": "",
+      "gallery": [],
+      "imageAlt": "David Bello’s autonomous delivery robot",
+      "imageCaption": ""
+    },
+    {
+      "id": "news-7392980683100422144",
+      "title": "NeuroSpark hackathon in Spain",
+      "category": "Students",
+      "date": "2025-11-08",
+      "dateLabel": "Posted 2025-11-08",
+      "image": "/media/neurospark-group.webp",
+      "summary": "Nicolas Peña represented A²R at the 24-hour NeuroSpark event in Elche, developing experience with EEG and brain–computer interfaces.",
+      "source": "https://www.linkedin.com/feed/update/urn:li:activity:7392980683100422144/",
+      "facebook": "",
+      "gallery": [],
+      "imageAlt": "NeuroSpark hackathon in Spain",
+      "imageCaption": ""
+    },
+    {
+      "id": "news-7386841913141907456",
+      "title": "Researchers’ Night: robotics for all ages",
+      "category": "Outreach",
+      "date": "2025-10-22",
+      "dateLabel": "Posted 2025-10-22",
+      "image": "/media/outreach-0.webp",
+      "summary": "The lab welcomed visitors to hands-on demonstrations of robots, 3D printing, and human–machine interaction.",
+      "source": "https://www.linkedin.com/feed/update/urn:li:activity:7386841913141907456/",
+      "facebook": "",
+      "gallery": [],
+      "imageAlt": "Researchers’ Night: robotics for all ages",
+      "imageCaption": ""
+    }
+  ]
+}
