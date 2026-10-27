@@ -7,5 +7,5 @@ export default defineConfig({
  plugins: [react()],
  resolve: {alias: {'@': fileURLToPath(new URL('.', import.meta.url))}},
  css: {postcss: {plugins: [tailwindcss()]}},
- build: {rollupOptions: {input: {main: fileURLToPath(new URL('./index.html',import.meta.url)),editor: fileURLToPath(new URL('./edit/index.html',import.meta.url))}}}
+ build: {rollupOptions: {input: {main: fileURLToPath(new URL('./index.html',import.meta.url)),editor: fileURLToPath(new URL('./edit/index.html',import.meta.url)),guidelines: fileURLToPath(new URL('./guidelines/index.html',import.meta.url))}}}
 });

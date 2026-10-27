@@ -3200,5 +3200,12 @@
       "imageAlt": "Researchers’ Night: robotics for all ages",
       "imageCaption": ""
     }
-  ]
+  ],
+  "editorAccess": {
+    "algorithm": "PBKDF2-SHA256",
+    "iterations": "210000",
+    "salt": "6137b1afcf427c015c1c09aebcd0bf77",
+    "hash": "04f6c72c6c645543658b846ff8e811fdf81eb75c0a8ea19868ed2b6c6e6e732d",
+    "updated": "27 October 2026"
+  }
 }

@@ -1,13 +1,13 @@
 ## 5. Update lab content
 
-1. Open **https://a2rlab.github.io/edit/**.
-2. Edit the required sections. **Save local draft** only saves in this browser; **Preview draft** shows that draft locally.
-3. Click **Export update** to download `a2r-content-update.json`.
-4. In your cloned repository, replace `lib/lab-content.json` with the exported file, renaming it exactly to `lab-content.json`.
+1. Open **https://a2rlab.github.io/edit/** and enter the editor password.
+2. Choose a section, pick an entry (or **Add new entry**), and edit its fields. **Save draft** only saves in this browser; **Preview** opens that draft locally in a new tab.
+3. Click **Export update** to download `lab-content.json`.
+4. In your cloned repository, replace `lib/lab-content.json` with the exported file. If your browser renamed the download (for example `lab-content (1).json`), rename it exactly to `lab-content.json`.
 5. Add any new image/video files under `public/media/`. Use simple names such as `new-robot.webp`, with paths like `/media/new-robot.webp` in the content file.
 6. Commit and push with GitHub Desktop. GitHub Actions publishes the update.
 
-Anyone can open the editor, but it cannot write to GitHub or alter the public website. Only authorized repository contributors can publish. Browser drafts do not transfer automatically from the old website's domain or between computers. To transfer a draft, export it on the old editor and import it on the new one. Keep exported drafts until published successfully.
+The editor asks for a password. To change it, open **Password & draft** in the editor, set a new password, then save, export, and publish the update; until it is published, the live editor keeps the previous password. Because the site is static, the password keeps casual visitors out of the editor rather than providing server-side security; only a salted hash is stored in the content file. The editor cannot write to GitHub or alter the public website. Only authorized repository contributors can publish. Browser drafts do not transfer automatically from the old website's domain or between computers. To transfer a draft, export it on the old editor and import it on the new one. Keep exported drafts until published successfully.
 
 The downloadable guide at `/editor-guide.txt` contains the same update workflow. Use GitHub history to recover older content; reverting a commit and pushing publishes that previous version.
 

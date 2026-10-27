@@ -1,5 +1,10 @@
 import base from './lab-content.json';
 export type LabContent=typeof base;
+// Updates exported before the editor password existed keep the current published password.
+export function upgradeContent(value:unknown):unknown{
+ if(typeof value==='object'&&value!==null&&!Array.isArray(value)&&!('editorAccess' in value))return {...value,editorAccess:base.editorAccess};
+ return value;
+}
 export function validateContent(value:unknown):string[]{
  const errors:string[]=[];
  const object=(v:unknown):v is Record<string,unknown>=>typeof v==='object'&&v!==null&&!Array.isArray(v);
@@ -40,6 +45,8 @@ export function validateContent(value:unknown):string[]{
  for(const device of d.devices)if(device.project&&!pIds.includes(device.project))errors.push(device.title+': unknown linked project.');
  for(const p of d.publications)if(p.rankings.some(r=>!['D1','Q1','Q2','Q3','Q4'].includes(r)))errors.push(p.title+': use the CV ranking labels D1 or Q1–Q4.');
  for(const a of d.alumni)if(!/^20\d{2}$/.test(a.year))errors.push(a.name+': enter a four-digit alumni year.');
+ const access=d.editorAccess;
+ if(!/^[0-9a-f]{32}$/.test(access.salt)||!/^[0-9a-f]{64}$/.test(access.hash)||!(Number(access.iterations)>=100000))errors.push('editorAccess: the editor password record is damaged. Set a new password in Editor settings.');
  const email=/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
  if(!email.test(d.lab.email))errors.push('Enter a valid lab email.');
  for(const p of d.team)if(p.email&&!email.test(p.email))errors.push(p.name+': enter a valid email or leave it blank.');
