@@ -29,7 +29,7 @@
         "Dynamic obstacle avoidance",
         "Reinforcement learning for robotic control"
       ],
-      "image": "/media/ackermann.webp",
+      "image": "/media/ackermann.jpg",
       "imageAlt": "A²R Ackermann steering research vehicle",
       "related": [
         "ackermann",
@@ -50,7 +50,7 @@
         "Formation control and collective behavior",
         "Cooperative ground and aerial robotics"
       ],
-      "image": "/media/swarm.webp",
+      "image": "/media/swarm.jpg",
       "imageAlt": "Small mobile robot platforms shown in the lab presentation",
       "related": [
         "amr1",
@@ -99,10 +99,10 @@
   "projects": [
     {
       "id": "ackermann",
-      "title": "Autonomous research vehicle",
+      "title": "PET project: Autonomous Follower Robot",
       "category": "autonomy",
       "type": "Research platform",
-      "image": "/media/ackermann.webp",
+      "image": "/media/ackermann.jpg",
       "imageAlt": "Four-wheel Ackermann steering vehicle with onboard sensors",
       "summary": "A physical testbed for indoor–outdoor navigation, perception, and real-time decision-making.",
       "description": "The Ackermann steering vehicle brings sensing, embedded computing, and vehicle control together on an RC-scale platform. Research explores mapping, localization, obstacle avoidance, and human-following behavior. Team work includes an RGB-D perception pipeline using Kinect v2, NVIDIA Jetson Nano, ROS 2, and TensorRT, alongside path planning and sensor fusion.",
@@ -116,7 +116,7 @@
         "david"
       ],
       "gallery": [
-        "/media/ackermann.webp"
+        "/media/ackermann.jpg"
       ],
       "video": "lab-demo",
       "movies": [
@@ -245,7 +245,7 @@
       "title": "AMR1 mobile platform",
       "category": "swarm",
       "type": "Research platform",
-      "image": "/media/amr1.webp",
+      "image": "/media/green-beetle.jpg",
       "imageAlt": "AMR1 compact mobile robot with exposed electronics",
       "summary": "A compact mobile platform within the lab’s autonomous and multi-robot research portfolio.",
       "description": "AMR1 is documented in the lab’s platform portfolio. It forms part of a collection of mobile robots supporting experimental robotics and control. Contact the lab to discuss a project’s integration requirements and suitable test platforms.",
@@ -258,7 +258,7 @@
         "dahnial"
       ],
       "gallery": [
-        "/media/amr1.webp"
+        "/media/green-beetle.jpg"
       ],
       "movies": [],
       "publication": ""
@@ -312,61 +312,6 @@
       "movies": [
         "service-demonstration",
         "service-navigation"
-      ],
-      "publication": ""
-    },
-    {
-      "id": "swarm-localization",
-      "title": "Leader-assisted swarm localization",
-      "category": "swarm",
-      "type": "Proof of concept",
-      "image": "/media/swarm-localization-poster.webp",
-      "imageAlt": "Leader-assisted swarm localization at A²R",
-      "summary": "One LiDAR-equipped leader supports the localization of lower-cost follower robots.",
-      "description": "This proof of concept combines a leader with LiDAR and SLAM with followers using simpler onboard sensing. Markers help the leader observe followers, while estimation combines relative observations with odometry. The lab’s demonstration includes hardware and a ROS 2 / Gazebo simulation. Related research also explores decentralized localization using infrared, IMU, and Wi-Fi fusion.",
-      "topics": [
-        "Multi-robot localization",
-        "Sensor fusion",
-        "ROS 2"
-      ],
-      "people": [
-        "dahnial",
-        "ramaroson",
-        "zaid"
-      ],
-      "gallery": [
-        "/media/swarm-localization-poster.webp"
-      ],
-      "movies": [
-        "swarm-localization"
-      ],
-      "publication": "10.1109/CogInfoCom66819.2025.11200701"
-    },
-    {
-      "id": "pet-following",
-      "title": "Human-following & voice-assisted robots",
-      "category": "interaction",
-      "type": "Student research",
-      "image": "/media/pet-robot-poster.webp",
-      "imageAlt": "Human-following & voice-assisted robots at A²R",
-      "summary": "A responsive mobile robot brings together human tracking, navigation, and voice commands.",
-      "description": "The pet-robot project studies friendly robotic behaviour through active person following and SLAM. Team contributions span computer vision, embedded control, and offline voice interfaces with structured command execution. The video shows an early human-following demonstration in the lab.",
-      "topics": [
-        "Person tracking",
-        "Voice interfaces",
-        "SLAM"
-      ],
-      "people": [
-        "david",
-        "manuel",
-        "nader-noomen",
-        "hassan-almakhoul"
-      ],
-      "gallery": [
-        "/media/pet-robot-poster.webp"
-      ],
-      "movies": [
-        "pet-robot"
       ],
       "publication": ""
     },
@@ -450,30 +395,6 @@
         "/media/smart-helmet.webp",
         "/media/helmet-design.webp",
         "/media/helmet-pcb.webp"
-      ],
-      "movies": [],
-      "publication": ""
-    },
-    {
-      "id": "sport-sensing",
-      "title": "Muscle fatigue & movement in sport",
-      "category": "interaction",
-      "type": "Research study",
-      "image": "/media/research-seminar.webp",
-      "imageAlt": "Muscle fatigue & movement in sport at A²R",
-      "summary": "EMG and inertial sensing bring laboratory measurement into dynamic sporting activity.",
-      "description": "A²R is developing a method to investigate muscle fatigue during tennis using EMG and IMU data. The work connects muscle activation, movement measurement, and signal analysis with biomechanics and wearable technology. The lab announced the study in May 2026. Contact the team for the current study status.",
-      "topics": [
-        "EMG",
-        "IMU",
-        "Sports biomechanics"
-      ],
-      "people": [
-        "husam",
-        "hazem"
-      ],
-      "gallery": [
-        "/media/research-seminar.webp"
       ],
       "movies": [],
       "publication": ""
@@ -2714,7 +2635,7 @@
         "Distributed control",
         "Multi-robot experiments"
       ],
-      "project": "swarm-localization"
+      "project": ""
     },
     {
       "id": "prosthetic",
