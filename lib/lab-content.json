@@ -1,6 +1,6 @@
 {
   "lab": {
-    "facilityImage": "/media/facilities/lab-electronics.webp",
+    "facilityImage": "/media/lab-electronics.webp",
     "facilityImageAlt": "Students developing robotic systems at the A²R electronics workbench",
     "name": "Autonomous and Assistive Robotics",
     "shortName": "A²R Research Lab",
@@ -1069,12 +1069,6 @@
   ],
   "heroSlides": [
     {
-      "id": "electronics",
-      "image": "/media/lab-electronics.webp",
-      "alt": "Students developing robots at the A²R electronics workbench",
-      "label": "Ideas take shape in our laboratory"
-    },
-    {
       "id": "prototyping",
       "image": "/media/lab-prototyping.webp",
       "alt": "Researchers working beside a Prusa 3D printer and a motion capture camera",
@@ -1085,6 +1079,12 @@
       "image": "/media/student-sumo.webp",
       "alt": "Students preparing autonomous robots for a sumo challenge",
       "label": "Learning through experimentation"
+    },
+    {
+      "id": "electronics",
+      "image": "/media/lab-electronics.webp",
+      "alt": "Students developing robots at the A²R electronics workbench",
+      "label": "Ideas take shape in our laboratory"
     },
     {
       "id": "workspace",
@@ -2564,25 +2564,25 @@
     {
       "id": "electronics",
       "title": "Electronics & embedded development",
-      "image": "/media/facilities/lab-electronics.webp",
+      "image": "/media/lab-electronics.webp",
       "description": "Workbenches for circuitry, robotic assembly, measurement, and control."
     },
     {
       "id": "prototyping",
       "title": "Mechanical prototyping & 3D printing",
-      "image": "/media/facilities/lab-prototyping.webp",
+      "image": "/media/lab-prototyping.webp",
       "description": "Prusa printing and mechanical design alongside experimental robotic devices."
     },
     {
       "id": "workspace",
       "title": "A shared research workspace",
-      "image": "/media/facilities/lab-workspace.webp",
+      "image": "/media/lab-workspace.webp",
       "description": "Students working with assistive prototypes, computers, and motion capture cameras."
     },
     {
       "id": "soldering",
       "title": "Building at component level",
-      "image": "/media/facilities/lab-soldering.webp",
+      "image": "/media/lab-soldering.webp",
       "description": "Hands-on electronics development at the lab’s soldering and measurement stations."
     }
   ],
