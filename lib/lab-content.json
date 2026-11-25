@@ -71,7 +71,7 @@
         "EMG-based control and signal processing",
         "Adaptive control for assistive devices"
       ],
-      "image": "/media/bionic-hand.webp",
+      "image": "/media/prosthetic.jpg",
       "imageAlt": "Red and black bionic hand prototype developed in the lab",
       "related": [
         "bionic-hand",
@@ -133,7 +133,7 @@
       "title": "Modular bionic hand",
       "category": "assistive",
       "type": "Research prototype",
-      "image": "/media/bionic-hand.webp",
+      "image": "/media/prosthetic.jpg",
       "imageAlt": "Anthropomorphic bionic hand prototype with mechanical fingers",
       "summary": "Reconfigurable prosthetic devices with mechanical finger designs and integrated force sensing.",
       "description": "This project investigates a modular prosthetic hand with interchangeable end-effectors for different activities and user needs. Work includes anthropomorphic mechanisms, mechanical linkages for finger movement, and tactile force-sensing modules. EMG and EEG research supports the wider aim of intuitive control. The systems shown are research prototypes.",
@@ -167,7 +167,7 @@
       "title": "Robotino mobile robot",
       "category": "autonomy",
       "type": "Research platform",
-      "image": "/media/robotino.webp",
+      "image": "/media/robotinofesto.jpg",
       "imageAlt": "Festo Robotino mobile research robot",
       "summary": "Mobile robotics research connecting autonomous navigation, collision avoidance, and human interaction.",
       "description": "Robotino supports research in mobile robot navigation and collision avoidance. The platform is used by the lab to investigate autonomous behavior in indoor environments. Elek Donát is responsible for the Robotino platform, with research interests spanning mobile robotics, navigation, and unmanned aerial vehicles.",
@@ -322,7 +322,7 @@
       "title": "Robotic hand & wrist rehabilitation",
       "category": "assistive",
       "type": "Research programme",
-      "image": "/media/prosthesis-linkage-cad-poster.webp",
+      "image": "/media/cupholder.jpg",
       "imageAlt": "CAD animation of a related prosthetic hand mechanism",
       "summary": "Mechanical devices and biosignal interfaces support research into assisted hand movement.",
       "description": "The PI’s publication record documents finger rehabilitation devices, continuous passive motion for the fingers and wrist, and grounded exoskeleton mechanisms. More recent work investigates EEG and ERP interfaces for personalized stroke rehabilitation. This programme brings together mechanical design, motion control, and human intent. The displayed CAD animation illustrates related prosthetic mechanism development; it is not a clinical rehabilitation trial.",
@@ -381,22 +381,19 @@
       "title": "Smart helmet: sensing & integration",
       "category": "interaction",
       "type": "Design prototype",
-      "image": "/media/smart-helmet.webp",
-      "imageAlt": "Smart helmet: sensing & integration at A²R",
-      "summary": "A wearable-system concept developed through architecture, mechanical design, and electronics.",
-      "description": "The NURAI presentation documents a smart-helmet system overview, design views, and a dedicated PCB. The project illustrates the integration of sensing and embedded electronics within a wearable form. The figures show the documented prototype-development stages.",
+      "image": "/media/telepresence.jpg",
+      "imageAlt": "Telepresence at A²R",
+      "summary": "A robotic system for representing presence of human",
+      "description": "",
       "topics": [
-        "Wearable systems",
-        "PCB design",
-        "Embedded sensing"
+        "Autonomous"
       ],
       "people": [
-        "husam"
+        "husam",
+        "dahnial"
       ],
       "gallery": [
-        "/media/smart-helmet.webp",
-        "/media/helmet-design.webp",
-        "/media/helmet-pcb.webp"
+        "/media/telepresence.jpg"
       ],
       "movies": [],
       "publication": ""
@@ -1088,9 +1085,15 @@
     },
     {
       "id": "workspace",
-      "image": "/media/lab-workspace.webp",
+      "image": "/media/study.jpg",
       "alt": "Assistive robotics prototypes and students in the A²R laboratory",
       "label": "Robotics built around human potential"
+    },
+    {
+      "id": "learning",
+      "image": "/media/learn.jpg",
+      "alt": "Learning by experimenting",
+      "label": "Learning by experimenting"
     }
   ],
   "pi": {
@@ -2570,7 +2573,7 @@
     {
       "id": "prototyping",
       "title": "Mechanical prototyping & 3D printing",
-      "image": "/media/lab-prototyping.webp",
+      "image": "/media/3dprinter.jpg",
       "description": "Prusa printing and mechanical design alongside experimental robotic devices."
     },
     {
