@@ -163,6 +163,56 @@
       "publication": ""
     },
     {
+      "id": "amr1",
+      "title": "AMR1 mobile platform",
+      "category": "swarm",
+      "type": "Research platform",
+      "image": "/media/green-beetle.jpg",
+      "imageAlt": "AMR1 compact mobile robot with exposed electronics",
+      "summary": "A compact mobile platform within the lab’s autonomous and multi-robot research portfolio.",
+      "description": "AMR1 is documented in the lab’s platform portfolio. It forms part of a collection of mobile robots supporting experimental robotics and control. Contact the lab to discuss a project’s integration requirements and suitable test platforms.",
+      "topics": [
+        "Mobile platforms",
+        "Multi-robot research",
+        "Embedded control"
+      ],
+      "people": [
+        "dahnial"
+      ],
+      "gallery": [
+        "/media/green-beetle.jpg"
+      ],
+      "movies": [],
+      "publication": ""
+    },
+    {
+      "id": "rehabilitation",
+      "title": "Robotic hand & wrist rehabilitation",
+      "category": "assistive",
+      "type": "Research programme",
+      "image": "/media/cupholder.jpg",
+      "imageAlt": "CAD animation of a related prosthetic hand mechanism",
+      "summary": "Mechanical devices and biosignal interfaces support research into assisted hand movement.",
+      "description": "The PI’s publication record documents finger rehabilitation devices, continuous passive motion for the fingers and wrist, and grounded exoskeleton mechanisms. More recent work investigates EEG and ERP interfaces for personalized stroke rehabilitation. This programme brings together mechanical design, motion control, and human intent. The displayed CAD animation illustrates related prosthetic mechanism development; it is not a clinical rehabilitation trial.",
+      "topics": [
+        "Rehabilitation robotics",
+        "Finger & wrist motion",
+        "Biosignal interfaces"
+      ],
+      "people": [
+        "husam",
+        "nicolas",
+        "suliman"
+      ],
+      "gallery": [
+        "/media/prosthesis-linkage-cad-poster.webp"
+      ],
+      "movies": [
+        "motor-imagery"
+      ],
+      "publication": "10.3390/app11020815"
+    },
+    {
       "id": "robotino",
       "title": "Robotino mobile robot",
       "category": "autonomy",
@@ -186,30 +236,25 @@
       "publication": ""
     },
     {
-      "id": "drone",
-      "title": "Aerial manipulation",
-      "category": "swarm",
-      "type": "Research prototype",
-      "image": "/media/drone.webp",
-      "imageAlt": "Multirotor aerial manipulation research platform",
-      "summary": "Bringing aerial mobility and manipulation together on an experimental multirotor platform.",
-      "description": "The lab’s NURAI presentation documents aerial manipulation with a drone, including the physical platform and associated design work. This work connects with A²R interests in unmanned aerial vehicles, cooperative robotic systems, and control.",
+      "id": "smart-helmet",
+      "title": "Telepresence at A²R",
+      "category": "autonomy",
+      "type": "Design prototype",
+      "image": "/media/telepresence.jpg",
+      "imageAlt": "Telepresence at A²R",
+      "summary": "A robotic system for representing presence of human",
+      "description": "",
       "topics": [
-        "Aerial robotics",
-        "Manipulation",
-        "Control"
+        "Autonomous"
       ],
       "people": [
-        "husam"
+        "husam",
+        "dahnial"
       ],
       "gallery": [
-        "/media/drone.webp",
-        "/media/aerial-team.webp"
+        "/media/telepresence.jpg"
       ],
-      "movies": [
-        "aerial-hardware",
-        "aerial-simulation"
-      ],
+      "movies": [],
       "publication": ""
     },
     {
@@ -243,54 +288,6 @@
       "publication": ""
     },
     {
-      "id": "amr1",
-      "title": "AMR1 mobile platform",
-      "category": "swarm",
-      "type": "Research platform",
-      "image": "/media/green-beetle.jpg",
-      "imageAlt": "AMR1 compact mobile robot with exposed electronics",
-      "summary": "A compact mobile platform within the lab’s autonomous and multi-robot research portfolio.",
-      "description": "AMR1 is documented in the lab’s platform portfolio. It forms part of a collection of mobile robots supporting experimental robotics and control. Contact the lab to discuss a project’s integration requirements and suitable test platforms.",
-      "topics": [
-        "Mobile platforms",
-        "Multi-robot research",
-        "Embedded control"
-      ],
-      "people": [
-        "dahnial"
-      ],
-      "gallery": [
-        "/media/green-beetle.jpg"
-      ],
-      "movies": [],
-      "publication": ""
-    },
-    {
-      "id": "delivery",
-      "title": "Differential delivery robot",
-      "category": "autonomy",
-      "type": "Research platform",
-      "image": "/media/delivery.webp",
-      "imageAlt": "Small differential-drive mobile robot with sensors",
-      "summary": "A differential-drive research platform for mobile robotics and delivery applications.",
-      "description": "This mobile robot appears in the lab’s platform portfolio under autonomous differential delivery robotics. It supports the lab’s broader interest in autonomous movement, sensing, and embedded robotic systems. Platform-specific experiments and integration opportunities can be discussed with the lab.",
-      "topics": [
-        "Differential drive",
-        "Mobile robotics",
-        "Delivery"
-      ],
-      "people": [
-        "husam"
-      ],
-      "gallery": [
-        "/media/delivery.webp"
-      ],
-      "movies": [
-        "pet-robot"
-      ],
-      "publication": ""
-    },
-    {
       "id": "service-robot",
       "title": "Service robotics & obstacle avoidance",
       "category": "autonomy",
@@ -318,31 +315,31 @@
       "publication": ""
     },
     {
-      "id": "rehabilitation",
-      "title": "Robotic hand & wrist rehabilitation",
-      "category": "assistive",
-      "type": "Research programme",
-      "image": "/media/cupholder.jpg",
-      "imageAlt": "CAD animation of a related prosthetic hand mechanism",
-      "summary": "Mechanical devices and biosignal interfaces support research into assisted hand movement.",
-      "description": "The PI’s publication record documents finger rehabilitation devices, continuous passive motion for the fingers and wrist, and grounded exoskeleton mechanisms. More recent work investigates EEG and ERP interfaces for personalized stroke rehabilitation. This programme brings together mechanical design, motion control, and human intent. The displayed CAD animation illustrates related prosthetic mechanism development; it is not a clinical rehabilitation trial.",
+      "id": "drone",
+      "title": "Aerial manipulation",
+      "category": "swarm",
+      "type": "Research prototype",
+      "image": "/media/drone.webp",
+      "imageAlt": "Multirotor aerial manipulation research platform",
+      "summary": "Bringing aerial mobility and manipulation together on an experimental multirotor platform.",
+      "description": "The lab’s NURAI presentation documents aerial manipulation with a drone, including the physical platform and associated design work. This work connects with A²R interests in unmanned aerial vehicles, cooperative robotic systems, and control.",
       "topics": [
-        "Rehabilitation robotics",
-        "Finger & wrist motion",
-        "Biosignal interfaces"
+        "Aerial robotics",
+        "Manipulation",
+        "Control"
       ],
       "people": [
-        "husam",
-        "nicolas",
-        "suliman"
+        "husam"
       ],
       "gallery": [
-        "/media/prosthesis-linkage-cad-poster.webp"
+        "/media/drone.webp",
+        "/media/aerial-team.webp"
       ],
       "movies": [
-        "motor-imagery"
+        "aerial-hardware",
+        "aerial-simulation"
       ],
-      "publication": "10.3390/app11020815"
+      "publication": ""
     },
     {
       "id": "intelligent-space",
@@ -377,25 +374,28 @@
       "publication": "10.1109/SII58957.2024.10417351"
     },
     {
-      "id": "smart-helmet",
-      "title": "Smart helmet: sensing & integration",
-      "category": "interaction",
-      "type": "Design prototype",
-      "image": "/media/telepresence.jpg",
-      "imageAlt": "Telepresence at A²R",
-      "summary": "A robotic system for representing presence of human",
-      "description": "",
+      "id": "delivery",
+      "title": "Differential delivery robot",
+      "category": "autonomy",
+      "type": "Research platform",
+      "image": "/media/delivery.webp",
+      "imageAlt": "Small differential-drive mobile robot with sensors",
+      "summary": "A differential-drive research platform for mobile robotics and delivery applications.",
+      "description": "This mobile robot appears in the lab’s platform portfolio under autonomous differential delivery robotics. It supports the lab’s broader interest in autonomous movement, sensing, and embedded robotic systems. Platform-specific experiments and integration opportunities can be discussed with the lab.",
       "topics": [
-        "Autonomous"
+        "Differential drive",
+        "Mobile robotics",
+        "Delivery"
       ],
       "people": [
-        "husam",
-        "dahnial"
+        "husam"
       ],
       "gallery": [
-        "/media/telepresence.jpg"
+        "/media/delivery.webp"
       ],
-      "movies": [],
+      "movies": [
+        "pet-robot"
+      ],
       "publication": ""
     },
     {
@@ -2579,13 +2579,13 @@
     {
       "id": "workspace",
       "title": "A shared research workspace",
-      "image": "/media/lab-workspace.webp",
+      "image": "/media/lab.jpg",
       "description": "Students working with assistive prototypes, computers, and motion capture cameras."
     },
     {
       "id": "soldering",
       "title": "Building at component level",
-      "image": "/media/lab-soldering.webp",
+      "image": "/media/working.jpg",
       "description": "Hands-on electronics development at the lab’s soldering and measurement stations."
     }
   ],
