@@ -1,5 +1,7 @@
 {
   "lab": {
+    "facilityImage": "/media/lab-electronics.webp",
+    "facilityImageAlt": "Students developing robotic systems at the A²R electronics workbench",
     "name": "Autonomous and Assistive Robotics",
     "shortName": "A²R Research Lab",
     "institution": "University of Debrecen",
