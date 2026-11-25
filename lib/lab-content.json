@@ -113,10 +113,7 @@
         "Path planning",
         "Sensor fusion"
       ],
-      "people": [
-        "manuel",
-        "david"
-      ],
+      "people": [],
       "gallery": [
         "/media/ackermann.jpg"
       ],
@@ -142,10 +139,7 @@
         "Tactile sensing",
         "EMG control"
       ],
-      "people": [
-        "nicolas",
-        "suliman"
-      ],
+      "people": [],
       "gallery": [
         "/media/bionic-hand.webp",
         "/media/finger-design.webp",
@@ -176,9 +170,7 @@
         "Multi-robot research",
         "Embedded control"
       ],
-      "people": [
-        "dahnial"
-      ],
+      "people": [],
       "gallery": [
         "/media/green-beetle.jpg"
       ],
@@ -199,11 +191,7 @@
         "Finger & wrist motion",
         "Biosignal interfaces"
       ],
-      "people": [
-        "husam",
-        "nicolas",
-        "suliman"
-      ],
+      "people": [],
       "gallery": [
         "/media/prosthesis-linkage-cad-poster.webp"
       ],
@@ -226,9 +214,7 @@
         "Navigation",
         "HRI"
       ],
-      "people": [
-        "donat"
-      ],
+      "people": [],
       "gallery": [
         "/media/robotino.webp"
       ],
@@ -243,7 +229,7 @@
       "image": "/media/telepresence.jpg",
       "imageAlt": "Telepresence at A²R",
       "summary": "A robotic system for representing presence of human",
-      "description": "",
+      "description": "This robot can be controlled and be used to tele-communicate through multi modal device from different place. It has monitor, speakers, camera, microphone as well as LiDAR and base robot with holonomic wheels for the actuators",
       "topics": [
         "Autonomous"
       ],
@@ -268,12 +254,7 @@
         "Motor imagery",
         "Pattern recognition"
       ],
-      "people": [
-        "mozes",
-        "nicolas",
-        "hamna-noor",
-        "marsail"
-      ],
+      "people": [],
       "gallery": [
         "/media/bci.webp"
       ],
@@ -298,10 +279,7 @@
         "Obstacle avoidance",
         "HRI"
       ],
-      "people": [
-        "dahnial",
-        "husam"
-      ],
+      "people": [],
       "gallery": [
         "/media/service-robot.webp"
       ],
@@ -325,9 +303,7 @@
         "Manipulation",
         "Control"
       ],
-      "people": [
-        "husam"
-      ],
+      "people": [],
       "gallery": [
         "/media/drone.webp",
         "/media/aerial-team.webp"
@@ -352,15 +328,9 @@
         "RGB-D mapping",
         "Trajectory validation"
       ],
-      "people": [
-        "husam",
-        "manuel",
-        "dahnial"
-      ],
+      "people": [],
       "gallery": [
         "/media/motion-capture-poster.webp",
-        "/media/lab-workspace.webp",
-        "/media/lab-prototyping.webp",
         "/media/rgbd-mapping-poster.webp"
       ],
       "movies": [
@@ -384,9 +354,7 @@
         "Mobile robotics",
         "Delivery"
       ],
-      "people": [
-        "husam"
-      ],
+      "people": [],
       "gallery": [
         "/media/delivery.webp"
       ],
@@ -409,11 +377,7 @@
         "Maze solving",
         "Robot sumo"
       ],
-      "people": [
-        "ali-elbishbishy",
-        "hassaan",
-        "dahnial"
-      ],
+      "people": [],
       "gallery": [
         "/media/student-sumo.webp"
       ],
@@ -1063,16 +1027,16 @@
   ],
   "heroSlides": [
     {
+      "id": "students",
+      "image": "/media/team.jpg",
+      "alt": "Meet the team",
+      "label": "Members of the Lab"
+    },
+    {
       "id": "prototyping",
       "image": "/media/lab-prototyping.webp",
       "alt": "Researchers working beside a Prusa 3D printer and a motion capture camera",
       "label": "From digital design to physical systems"
-    },
-    {
-      "id": "students",
-      "image": "/media/student-sumo.webp",
-      "alt": "Students preparing autonomous robots for a sumo challenge",
-      "label": "Learning through experimentation"
     },
     {
       "id": "electronics",
