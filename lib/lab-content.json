@@ -1,6 +1,6 @@
 {
   "lab": {
-    "facilityImage": "/media/lab-electronics.webp",
+    "facilityImage": "/media/facilities/lab-electronics.webp",
     "facilityImageAlt": "Students developing robotic systems at the A²R electronics workbench",
     "name": "Autonomous and Assistive Robotics",
     "shortName": "A²R Research Lab",
@@ -2564,25 +2564,25 @@
     {
       "id": "electronics",
       "title": "Electronics & embedded development",
-      "image": "/media/lab-electronics.webp",
+      "image": "/media/facilities/lab-electronics.webp",
       "description": "Workbenches for circuitry, robotic assembly, measurement, and control."
     },
     {
       "id": "prototyping",
       "title": "Mechanical prototyping & 3D printing",
-      "image": "/media/lab-prototyping.webp",
+      "image": "/media/facilities/lab-prototyping.webp",
       "description": "Prusa printing and mechanical design alongside experimental robotic devices."
     },
     {
       "id": "workspace",
       "title": "A shared research workspace",
-      "image": "/media/lab-workspace.webp",
+      "image": "/media/facilities/lab-workspace.webp",
       "description": "Students working with assistive prototypes, computers, and motion capture cameras."
     },
     {
       "id": "soldering",
       "title": "Building at component level",
-      "image": "/media/lab-soldering.webp",
+      "image": "/media/facilities/lab-soldering.webp",
       "description": "Hands-on electronics development at the lab’s soldering and measurement stations."
     }
   ],
